@@ -1,0 +1,59 @@
+body {
+    background-color: #EDFFE9;
+}
+
+#responsive-menu{
+    margin-right: 63px;
+}
+.navbar {
+    background-color: #EDFFE9;
+    border: none;
+    min-height: 41px;
+
+}
+.container-fluid {
+    height: 41px;
+}
+#responsive-menu ul li {
+    font-family: verdana;
+    font-size: 12px;
+    line-height: 1.42857;
+    color: #333;
+}
+#responsive-menu .fa {
+    font-size: 13px;
+    padding-right: 16px;
+    padding-left: 8px;
+}
+
+
+#responsive-menu a {
+    color: #EDFFE9;
+    margin: 5px 10px 5px 5px;
+    background: #128522 none repeat scroll 0% 0%;
+    box-shadow: 2px 2px 2px #006712;
+    padding: 6px;
+    text-decoration: none;
+    transition: all 0.3s ease-in-out 0s;
+}
+.navbar-nav{
+    margin-top: -2px;
+    margin-bottom: 0px;}
+
+.carousel-inner > .item > img {
+    margin: 0 auto;
+}
+#logo {
+
+    background-color: #53A875;
+    padding-top: 37px;
+    padding-bottom: 124px;
+    padding-left: 83px;
+}
+.social-icons {
+    list-style: outside none none;
+    padding: 0px;
+    margin: 20px;
+    color: #fff;
+
+}
