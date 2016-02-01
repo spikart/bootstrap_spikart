@@ -1,59 +1,62 @@
-body {
-    background-color: #EDFFE9;
+.carousel-inner > .item > img {
+    margin: 0 auto;
 }
-
-#responsive-menu{
-    margin-right: 63px;
+.carousel-control {
+    color: #128522;
 }
-.navbar {
-    background-color: #EDFFE9;
-    border: none;
+.carousel-control.right {
+    background-image: none;
+}
+.carousel-control.left {
+    background-image: none;
+}
+.carousel-control:focus{
+    color: #128522;
+}
+#top {
+    margin: 0px;
+    padding-top: 8px;
+    padding-bottom: 2px;
     min-height: 41px;
-
+    background: #EDFFE9 none repeat scroll 0% 0%;
 }
 .container-fluid {
-    height: 41px;
+    width: 90%;
+    padding-left: 0px;
+    padding-right: 0px;
 }
-#responsive-menu ul li {
-    font-family: verdana;
-    font-size: 12px;
-    line-height: 1.42857;
-    color: #333;
+
+#top-links {
+    padding-top: 1px;
 }
-#responsive-menu .fa {
-    font-size: 13px;
+#top-links a {
+    color: #EDFFE9;
+    margin: 12px 0px 0px;
+    background: #128522 none repeat scroll 0% 0%;
+    box-shadow: 2px 2px 2px #006712;
+    padding: 8px;
+    text-decoration: none;
+    transition: all 0.3s ease-in-out 0s;
+}
+#top-links .fa {
     padding-right: 16px;
     padding-left: 8px;
 }
 
-
-#responsive-menu a {
-    color: #EDFFE9;
-    margin: 5px 10px 5px 5px;
-    background: #128522 none repeat scroll 0% 0%;
-    box-shadow: 2px 2px 2px #006712;
-    padding: 6px;
-    text-decoration: none;
-    transition: all 0.3s ease-in-out 0s;
+.fa {
+    font-size: 13px;
 }
-.navbar-nav{
-    margin-top: -2px;
-    margin-bottom: 0px;}
+#header-container {
+    margin-bottom: 8px;
+    background: #FFF none repeat scroll 0% 0%;
+    padding-top: 41px;
 
-.carousel-inner > .item > img {
-    margin: 0 auto;
+}
+#header-inner-container {
+    background: #53A875 none repeat scroll 0% 0%;
 }
 #logo {
-
-    background-color: #53A875;
-    padding-top: 37px;
-    padding-bottom: 124px;
-    padding-left: 83px;
-}
-.social-icons {
-    list-style: outside none none;
-    padding: 0px;
-    margin: 20px;
-    color: #fff;
-
+    margin-bottom: -4px;
+    margin-top: -4px;
+    z-index: 1;
 }
