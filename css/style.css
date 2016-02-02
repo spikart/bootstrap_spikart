@@ -38,8 +38,13 @@ padding-top: 1px;
     margin-left: 14px;
     background: #128522;
     box-shadow: 2px 2px 2px #006712;
+    transition: .6s ease-out;
+    transition-delay: 0.0s;
+    outline: none;
 }
-
+#responsive-menu a:hover {
+    background-color: #027512;
+}
 #responsive-menu .fa {
     padding-right: 16px;
     padding-left: 8px;
@@ -58,7 +63,63 @@ padding-top: 1px;
     margin-bottom: -4px;
     margin-top: -4px;
     z-index: 1;
+    margin-left: 38px;
 }
+#social {
+    padding-top: 12px;
+
+}
+
+#social a {
+    text-decoration: none;
+    outline: none;
+}
+#social  b {
+    color: #EDFFE9;
+
+}
+#social .fa {
+    width: 40px;
+
+    padding-right: 12px;
+}
+
+#facebook .fa {
+    color: #EDFFE9;
+    transition: .6s ease-out;
+    transition-delay: 0.0s;
+}
+#facebook .fa:hover {
+    color: #3A5795;
+}
+
+#google-plus .fa {
+    color: #EDFFE9;
+    transition: .6s ease-out;
+    transition-delay: 0.0s;
+}
+#google-plus .fa:hover {
+    color: #DB4437;
+}
+
+#vk .fa {
+    color: #EDFFE9;
+    transition: .6s ease-out;
+    transition-delay: 0.0s;
+}
+#vk .fa:hover {
+    color: #57799D;
+}
+
+#skype .fa {
+    color: #EDFFE9;
+    transition: .6s ease-out;
+    transition-delay: 0.0s;
+}
+#skype .fa:hover {
+    color: #00AFF0;
+}
+
 .carousel-inner > .item > img {
     margin: 0 auto;
 }

@@ -69,9 +69,22 @@
     <div id="header-inner-container">
         <div class="container-fluid">
             <div class="row">
-                <div class="col-md-2 col-sm-12">
-                    <div id="logo">
+                <div class="col-md-2 col-sm-2">
+                    <div class="logo">
                         <img src="images/logo_center.png" alt="Спікарт" title="Spikart" class="img-responsive">
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-4">
+                    <div id="social"">
+                        <div id="facebook"><a href="https://www.facebook.com/pages/%D0%9F%D0%9F-%D0%A1%D0%BF%D1%96%D0%BA%D0%B0%D1%80%D1%82/274396342581927" target="_blank"><i class="fa fa-facebook fa-2x"></i><b>Ми на Facebook</b></a></div>
+                        <div id="google-plus"><a href="#"target="_blank"><i class="fa fa-google-plus fa-2x"></i><b>Ми в Google+</b></a></div>
+                        <div id="vk"><a href="#"target="_blank"><i class="fa fa-vk fa-2x"></i><b>Ми у Вконтакте</b></a></div>
+                        <div id="skype"><a href="#"target="_blank"><i class="fa fa-skype fa-2x"></i><b>Ми у Skype</b></a></div>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-4">
+                    <div id="adress">
+                        Телефон
                     </div>
                 </div>
             </div>
