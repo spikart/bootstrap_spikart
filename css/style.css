@@ -27,6 +27,7 @@ body{
 
 #responsive-menu {
 padding-top: 1px;
+    position: relative;
 }
 
 #responsive-menu a {
@@ -59,15 +60,15 @@ padding-top: 1px;
 #header-inner-container {
     background: #53A875 none repeat scroll 0% 0%;
 }
-#logo {
+.logo {
     margin-bottom: -4px;
     margin-top: -4px;
     z-index: 1;
     margin-left: 38px;
 }
 #social {
-    padding-top: 12px;
-
+    padding-top: 10px;
+    margin-left: 250px;
 }
 
 #social a {
@@ -118,6 +119,78 @@ padding-top: 1px;
 }
 #skype .fa:hover {
     color: #00AFF0;
+}
+#adress {
+    padding-top: 11px;
+    margin-left: 216px;
+}
+
+#adress a {
+    text-decoration: none;
+}
+
+#adress b {
+    text-decoration: none;
+    outline: none;
+}
+#adress  b {
+    color: #EDFFE9;
+    vertical-align: 15px;
+    font-size: large;
+
+}
+
+#adress  be {
+    color: #EDFFE9;
+    vertical-align: 12px;
+    font-size: large;
+    font-weight: bold;
+
+}
+
+#adress .fa {
+    width: 63px;
+}
+
+.fa-phone-square {
+    font-size: large;
+}
+
+#phone {
+    float: left;
+}
+
+#phone .fa {
+    color: #EDFFE9;
+    transition: .6s ease-out;
+    transition-delay: 0.0s;
+    font-size: 56px;
+    margin-top: -3px;
+}
+#phone .fa:hover {
+    color: #AAEEFF;
+}
+
+#e-mail {
+    clear: left;
+    float: left;
+}
+
+#e-mail .fa {
+    color: #EDFFE9;
+    transition: .6s ease-out;
+    transition-delay: 0.0s;
+}
+#e-mail .fa:hover {
+    color: #FFDD00;
+}
+
+
+#carousel {
+    border-bottom: #53A875;
+    border-bottom-style: solid ;
+    border-bottom-width: 8px ;
+    data-interval="5000"
 }
 
 .carousel-inner > .item > img {
