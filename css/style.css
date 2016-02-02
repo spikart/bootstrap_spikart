@@ -1,3 +1,64 @@
+body{
+    font-family: verdana;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 20px;
+}
+.navbar-toggle {
+    margin-top: 3px;
+    margin-right: 10px;
+    height: 35px;
+    width: 35px;
+    color: #53A875;
+}
+.fa-stack {
+    margin-top: -7px;
+    margin-left: -10px;
+}
+#top {
+    background: #EDFFE9;
+    height: 41px;
+}
+.container-fluid {
+    width: 90%;
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+#responsive-menu {
+padding-top: 1px;
+}
+
+#responsive-menu a {
+    color: #EDFFE9;
+    padding: 6px;
+    margin-top: 2px;
+    margin-right: 5px;
+    margin-bottom: 0px;
+    margin-left: 14px;
+    background: #128522;
+    box-shadow: 2px 2px 2px #006712;
+}
+
+#responsive-menu .fa {
+    padding-right: 16px;
+    padding-left: 8px;
+}
+
+#header-container {
+    margin-bottom: 0px;
+    background: #FFF none repeat scroll 0% 0%;
+    padding-top: 41px;
+
+}
+#header-inner-container {
+    background: #53A875 none repeat scroll 0% 0%;
+}
+#logo {
+    margin-bottom: -4px;
+    margin-top: -4px;
+    z-index: 1;
+}
 .carousel-inner > .item > img {
     margin: 0 auto;
 }
@@ -12,51 +73,4 @@
 }
 .carousel-control:focus{
     color: #128522;
-}
-#top {
-    margin: 0px;
-    padding-top: 8px;
-    padding-bottom: 2px;
-    min-height: 41px;
-    background: #EDFFE9 none repeat scroll 0% 0%;
-}
-.container-fluid {
-    width: 90%;
-    padding-left: 0px;
-    padding-right: 0px;
-}
-
-#top-links {
-    padding-top: 1px;
-}
-#top-links a {
-    color: #EDFFE9;
-    margin: 12px 0px 0px;
-    background: #128522 none repeat scroll 0% 0%;
-    box-shadow: 2px 2px 2px #006712;
-    padding: 8px;
-    text-decoration: none;
-    transition: all 0.3s ease-in-out 0s;
-}
-#top-links .fa {
-    padding-right: 16px;
-    padding-left: 8px;
-}
-
-.fa {
-    font-size: 13px;
-}
-#header-container {
-    margin-bottom: 8px;
-    background: #FFF none repeat scroll 0% 0%;
-    padding-top: 41px;
-
-}
-#header-inner-container {
-    background: #53A875 none repeat scroll 0% 0%;
-}
-#logo {
-    margin-bottom: -4px;
-    margin-top: -4px;
-    z-index: 1;
 }

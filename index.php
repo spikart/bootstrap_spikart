@@ -18,7 +18,35 @@
     <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
     <![endif]-->
 </head>
-            <!--Верхнє меню-->
+<div class="navbar navbar-fixed-top">
+    <nav id="top">
+        <div class="container-fluid" >
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#responsive-menu">
+                    <span class="fa-stack fa-lg">
+                      <i class="fa fa-square-o fa-stack-2x"></i>
+                      <i class="fa fa-bars fa-stack-1x"></i>
+                    </span>
+                </button>
+            </div>
+            <div class="collapse navbar-collapse pull-right" id="responsive-menu">
+                <ul class="nav navbar-nav">
+
+                    <li><a href="#""><i class="fa fa-home"></i>Головна</a></li>
+                    <li><a href="http://spikart.com.ua/shop/"><i class="fa fa-shopping-bag"></i>
+                            Магазин</a>
+                    </li>
+                    <li><a href="#"><i class="fa fa-info-circle"></i>Про нас</a></li>
+                    <li><a href="#"><i class="fa fa-arrows-alt"></i>
+                            Напрямки діяльності</a></li>
+                    <li>
+                        <a href="#"><i class="fa fa-info-circle"></i>Контакти</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+</div>
+            <!--Верхнє меню_aerol
 <div class="navbar-fixed-top" id="top_home">
     <nav id="top">
         <div class="container-fluid"><div class="nav pull-right" id="top-links">
@@ -34,12 +62,14 @@
         </div>
     </nav>
 </div>
+
+-->
             <!--Шапка-->
 <header id="header-container">
     <div id="header-inner-container">
         <div class="container-fluid">
             <div class="row">
-                <div class="col-sm-2">
+                <div class="col-md-2 col-sm-12">
                     <div id="logo">
                         <img src="images/logo_center.png" alt="Спікарт" title="Spikart" class="img-responsive">
                     </div>
@@ -49,12 +79,11 @@
     </div>
 
 </header>
-
             <!--Індикатори слайдів-->
 <div id="carousel" class="carousel slide">
     <div class="row">
-        <div class="col-sm-3"></div>
-        <div class="col-sm-6">
+        <div class="col-sm-3 col-md-3 col-lg-3"></div>
+        <div class="col-sm-6 col-md-6 col-lg-6">
     <ol class="carousel-indicators">
         <li class="active" data-target="#carousel" data-slide-to="0"></li>
         <li data-target="#carousel" data-slide-to="1"></li>
@@ -92,10 +121,9 @@
         <span class="glyphicon glyphicon-chevron-right"></span>
     </a>
         </div>
-            <div class="col-sm-3"></div>
+            <div class="col-sm-3 col-md-3 col-lg-3"></div>
         </row>
 </div>
-
 <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
 <!-- Include all compiled plugins (below), or include individual files as needed -->
