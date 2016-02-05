@@ -19,6 +19,7 @@
     <![endif]-->
 </head>
 <body>
+<!--Меню-->
 <div class="navbar navbar-fixed-top">
     <nav id="top">
         <div class="container-fluid">
@@ -47,24 +48,6 @@
         </div>
     </nav>
 </div>
-<!--Верхнє меню_aerol
-<div class="navbar-fixed-top" id="top_home">
-<nav id="top">
-<div class="container-fluid"><div class="nav pull-right" id="top-links">
-    <ul class="list-inline">
-        <li><a href="#"><i class="fa fa-home"></i>
-                Головна</a></li>
-        <li><a href="http://spikart.com.ua/shop/"><i class="fa fa-shopping-bag"></i>Магазин</a></li>
-        <li><a href="#"><i class="fa fa-info-circle"></i>Про нас</a></li>
-        <li><a href="#"><i class="fa fa-arrows-alt"></i>Напрямки діяльності</a></li>
-        <li><a href="#"><i class="fa fa-info-circle"></i>Контакти</a></li>
-    </ul>
-</div>
-</div>
-</nav>
-</div>
-
--->
 <!--Шапка-->
 <header id="header-container">
     <div id="header-inner-container">
@@ -97,6 +80,7 @@
         </div>
     </div>
 </header>
+<!--Слайдшоу-->
 <!--Індикатори слайдів-->
 <div class="carousel slide" id="carousel" data-interval="2500">
     <div class="container-fluid">
@@ -145,6 +129,7 @@
         </div>
     </div>
 </div>
+<!--Тіло-->
 <div>
     <div class="container-fluid" id="title-1">
         <p>НАПРЯМКИ ДІЯЛЬНОСТІ</p>
@@ -213,6 +198,58 @@
     <div class="col-md-1"></div>
 </div>
 </div>
+</div>
+<!--Футтер-->
+<div id="footer">
+    <div id="logo-footer">
+        <a href="#" id="contakt-foofter" title="Контакти">
+        <span class="fa-stack fa-lg">
+           <i class="fa fa-circle fa-stack-2x"></i>
+           <i class="fa fa-compass fa-stack-1x fa-inverse"></i>
+        </span></a>
+    </div>
+    <div id="adress-footer">
+      <h3>КОНТАКТИ</h3>
+    <div id="adress-top">
+        79005 м. Львів. Вул. Зелена 5д/5.
+        <br>Тел./Факс +3(032)276-15-20
+        <br>e-mail: <a href="#">sspikart@gmail.com</a>
+        </div>
+    </div>
+</div>
+<div class="container" id="top-footer">
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-md-4">
+                <ul>
+                    <li><a href="#"></a></li>
+                    <li><a href="#"></a></li>
+                    <li><a href="#"></a></li>
+                    <li><a href="#"></a></li>
+                    <li><a href="#"></a></li>
+                </ul>
+            </div>
+            <div class="col-md-4">
+                <ul>
+                    <li><a href="#"></a></li>
+                    <li><a href="#"></a></li>
+                    <li><a href="#"></a></li>
+                    <li><a href="#"></a></li>
+                    <li><a href="#"></a></li>
+                </ul>
+            </div>
+            <div class="col-md-4">
+                <ul>
+                    <li><a href="#"></a></li>
+                    <li><a href="#"></a></li>
+                    <li><a href="#"></a></li>
+                    <li><a href="#"></a></li>
+                    <li><a href="#"></a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
 </div>
 <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>

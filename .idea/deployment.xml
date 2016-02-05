@@ -2,6 +2,13 @@
 <project version="4">
   <component name="PublishConfigData" serverName="www.bs-spikart.com.ua">
     <serverData>
+      <paths name="bs-spikart.com.ua">
+        <serverdata>
+          <mappings>
+            <mapping local="$PROJECT_DIR$" web="/" />
+          </mappings>
+        </serverdata>
+      </paths>
       <paths name="www.bs-spikart.com.ua">
         <serverdata>
           <mappings>

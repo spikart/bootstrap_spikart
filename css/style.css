@@ -263,7 +263,7 @@ body {
     line-height: 40px;
     font-weight: bold;
     margin-top: 10px;
-    margin-bottom: 10px;
+    margin-bottom: 0px;
     padding-top: 15px;
     border-bottom: #53A875;
     border-bottom-style: solid;
@@ -293,6 +293,59 @@ margin: auto;}
     line-height: 25px;
     font-weight: normal;
     margin-top: -34px;
-    margin-bottom: 15px;
+    margin-bottom: 45px;
     padding-top: 20px;
+}
+#footer {
+    background-color: #EDFFE9;
+    text-align: center;
+}
+
+#contakt-foofter{
+    color: #53A875;
+    font-size: 44px;
+    transition: .4s ease-out;
+    transition-delay: 0.0s;}
+
+    #contakt-foofter:hover {
+    color: #EDFFE9;
+}
+
+#contakt-foofter .fa-compass {
+    color: #EDFFE9;
+    font-size: 100px;
+    transition: .4s ease-out;
+    transition-delay: 0.0s;}
+
+#contakt-foofter .fa-compass:hover {
+    color: #53A875;
+}
+
+
+.fa-stack {
+    margin-top: -58px;
+}
+#contakt{
+    margin-top: 10px;
+}
+#adress-footer {
+    background-color: #EDFFE9;
+    color: #53A875;
+    text-align: center;
+    margin-top: -15px;
+    padding-bottom: 15px;
+    border-bottom: #53A875;
+    border-bottom-style: solid;
+    border-bottom-width: 8px;
+}
+
+#adress-top {
+    color: #000000;
+}
+#adress-top a{
+    color: #53A875;
+}
+#top-footer {
+    color: #53A875;
+    text-align: center;
 }
