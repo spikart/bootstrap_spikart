@@ -203,7 +203,7 @@
 <div id="footer">
     <div id="logo-footer">
         <a href="#" id="contakt-foofter" title="Контакти">
-        <span class="fa-stack fa-lg">
+        <span class="fa-stack fa-lg" id="fa-stakc">
            <i class="fa fa-circle fa-stack-2x"></i>
            <i class="fa fa-compass fa-stack-1x fa-inverse"></i>
         </span></a>
