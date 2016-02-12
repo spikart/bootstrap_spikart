@@ -1,62 +1,351 @@
-.carousel-inner > .item > img {
-    margin: 0 auto;
+body {
+    font-family: verdana;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 20px;
 }
-.carousel-control {
-    color: #128522;
+
+.navbar-toggle {
+    margin-top: 3px;
+    margin-right: 10px;
+    height: 35px;
+    width: 35px;
+    color: #53A875;
 }
-.carousel-control.right {
-    background-image: none;
+
+.fa-stack {
+    margin-top: -7px;
+    margin-left: -10px;
 }
-.carousel-control.left {
-    background-image: none;
-}
-.carousel-control:focus{
-    color: #128522;
-}
+
 #top {
-    margin: 0px;
-    padding-top: 8px;
-    padding-bottom: 2px;
-    min-height: 41px;
-    background: #EDFFE9 none repeat scroll 0% 0%;
+    background: #EDFFE9;
+    height: 41px;
 }
+
 .container-fluid {
     width: 90%;
     padding-left: 0px;
     padding-right: 0px;
 }
 
-#top-links {
+#responsive-menu {
     padding-top: 1px;
+    position: relative;
 }
-#top-links a {
+
+#responsive-menu a {
     color: #EDFFE9;
-    margin: 12px 0px 0px;
-    background: #128522 none repeat scroll 0% 0%;
+    padding: 6px;
+    margin-top: 2px;
+    margin-right: 5px;
+    margin-bottom: 0px;
+    margin-left: 14px;
+    background: #128522;
     box-shadow: 2px 2px 2px #006712;
-    padding: 8px;
-    text-decoration: none;
-    transition: all 0.3s ease-in-out 0s;
+    transition: .6s ease-out;
+    transition-delay: 0.0s;
+    outline: none;
 }
-#top-links .fa {
+
+#responsive-menu a:hover {
+    background-color: #027512;
+}
+
+#responsive-menu .fa {
     padding-right: 16px;
     padding-left: 8px;
 }
 
-.fa {
-    font-size: 13px;
-}
 #header-container {
-    margin-bottom: 8px;
+    margin-bottom: 0px;
     background: #FFF none repeat scroll 0% 0%;
     padding-top: 41px;
 
 }
+
 #header-inner-container {
     background: #53A875 none repeat scroll 0% 0%;
 }
-#logo {
+
+.logo {
     margin-bottom: -4px;
     margin-top: -4px;
     z-index: 1;
+    margin-left: 38px;
+}
+
+#social {
+    padding-top: 10px;
+}
+
+#social a {
+    text-decoration: none;
+    outline: none;
+}
+
+#social b {
+    color: #EDFFE9;
+
+}
+
+#social .fa {
+    width: 40px;
+
+    padding-right: 12px;
+}
+
+#facebook .fa {
+    color: #EDFFE9;
+    transition: .6s ease-out;
+    transition-delay: 0.0s;
+}
+
+#facebook .fa:hover {
+    color: #3A5795;
+}
+
+#google-plus .fa {
+    color: #EDFFE9;
+    transition: .6s ease-out;
+    transition-delay: 0.0s;
+}
+
+#google-plus .fa:hover {
+    color: #DB4437;
+}
+
+#vk .fa {
+    color: #EDFFE9;
+    transition: .6s ease-out;
+    transition-delay: 0.0s;
+}
+
+#vk .fa:hover {
+    color: #57799D;
+}
+
+#skype .fa {
+    color: #EDFFE9;
+    transition: .6s ease-out;
+    transition-delay: 0.0s;
+}
+
+#skype .fa:hover {
+    color: #00AFF0;
+}
+
+#adress {
+    padding-top: 11px;
+    text-align:  center;
+
+}
+
+#adress a {
+    text-decoration: none;
+}
+
+#adress b {
+    text-decoration: none;
+    outline: none;
+    color: #EDFFE9;
+    vertical-align: 15px;
+    font-size: large;
+}
+
+#adress be {
+    color: #EDFFE9;
+    vertical-align: 12px;
+    font-size: large;
+    font-weight: bold;
+
+}
+
+#adress .fa {
+    width: 63px;
+}
+
+.fa-phone-square {
+    font-size: large;
+}
+
+#phone {
+    float: left;
+}
+
+#phone .fa {
+    color: #EDFFE9;
+    transition: .6s ease-out;
+    transition-delay: 0.0s;
+    font-size: 56px;
+    margin-top: -3px;
+}
+
+#phone .fa:hover {
+    color: #AAEEFF;
+}
+
+#e-mail {
+    clear: left;
+    float: left;
+}
+
+#e-mail .fa {
+    color: #EDFFE9;
+    transition: .6s ease-out;
+    transition-delay: 0.0s;
+}
+
+#e-mail .fa:hover {
+    color: #FFDD00;
+}
+
+#carousel {
+    border-bottom: #53A875;
+    border-bottom-style: solid;
+    border-bottom-width: 8px;
+
+}
+.carousel {
+    background-image: url(../images/bac_comp.jpg);
+    background-size: cover;
+}
+.carousel-inner > .item > img {
+    margin: 0 auto;
+}
+
+.carousel-control {
+    color: #128522;
+}
+
+.carousel-control.right {
+    background-image: none;
+}
+
+.carousel-control.left {
+    background-image: none;
+}
+
+.carousel-control:focus {
+    color: #128522;
+}
+
+#title-1 {
+    text-align:  center;
+    color: #128522;
+    font-size: 40px;
+    line-height: 40px;
+    font-weight: bold;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding-top: 15px;
+}
+#special-1 {
+    text-align:  center;
+    color: #53A875;
+    font-size: 20px;
+    line-height: 40px;
+    font-weight: bold;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding-top: 15px;
+}
+
+#about-as {
+    background-color: #53A875;
+    text-align:  center;
+}
+
+#title-2 {
+    text-align:  center;
+    color: #53A875;
+    font-size: 20px;
+    line-height: 40px;
+    font-weight: bold;
+    margin-top: 10px;
+    margin-bottom: 0px;
+    padding-top: 15px;
+    border-bottom: #53A875;
+    border-bottom-style: solid;
+    border-bottom-width: 8px;
+}
+
+
+
+#we-center{
+margin: auto;}
+
+#we{
+    text-align: center;
+    color: #000000;
+    font-size: 18px;
+    line-height: 18px;
+    font-weight: normal;
+    margin-top: -34px;
+    margin-bottom: 15px;
+    padding-top: 20px;
+}
+
+#we-top {
+    text-align: center;
+    color: #000000;
+    font-size: 18px;
+    line-height: 25px;
+    font-weight: normal;
+    margin-top: -34px;
+    margin-bottom: 45px;
+    padding-top: 20px;
+}
+#footer {
+    background-color: #EDFFE9;
+    text-align: center;
+}
+
+#contakt-foofter{
+    color: #53A875;
+    font-size: 44px;
+    transition: .4s ease-out;
+    transition-delay: 0.0s;}
+
+    #contakt-foofter:hover {
+    color: #EDFFE9;
+}
+
+#contakt-foofter .fa-compass {
+    color: #EDFFE9;
+    font-size: 100px;
+    transition: .4s ease-out;
+    transition-delay: 0.0s;}
+
+#contakt-foofter .fa-compass:hover {
+    color: #53A875;
+}
+
+
+#fa-stakc {
+    margin-top: -58px;
+}
+#contakt{
+    margin-top: 10px;
+}
+#adress-footer {
+    background-color: #EDFFE9;
+    color: #53A875;
+    text-align: center;
+    margin-top: -15px;
+    padding-bottom: 15px;
+    border-bottom: #53A875;
+    border-bottom-style: solid;
+    border-bottom-width: 8px;
+}
+
+#adress-top {
+    color: #000000;
+}
+#adress-top a{
+    color: #53A875;
+}
+#top-footer {
+    color: #53A875;
+    text-align: center;
 }
