@@ -16,11 +16,32 @@
     <!--[if lt IE 9]>
     <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
     <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap.js"></script>
     <![endif]-->
 </head>
 <body>
+
+<script>
+    jQuery("document").ready(function($){
+
+        var nav = $('.header-container');
+
+        $(window).scroll(function () {
+            if ($(this).scrollTop() > 41) {
+                nav.addClass("f-nav");
+            } else {
+                nav.removeClass("f-nav");
+            }
+        });
+
+    });
+    </script>
+
 <!--Меню-->
-<div class="navbar navbar-fixed-top">
+<div class="navbar navbar-top">
     <nav id="top">
         <div class="container-fluid">
             <div class="navbar-header">
@@ -49,7 +70,7 @@
     </nav>
 </div>
 <!--Шапка-->
-<header id="header-container">
+<div class="header-container">
     <div id="header-inner-container">
         <div class="container-fluid">
             <div class="row">
@@ -79,7 +100,7 @@
             </div>
         </div>
     </div>
-</header>
+</div>
 <!--Слайдшоу-->
 <!--Індикатори слайдів-->
 <div class="carousel slide" id="carousel" data-interval="2500">
@@ -125,7 +146,6 @@
                 </a>
             </div>
             <div class="col-sm-3 col-md-3 col-lg-3"></div>
-            </row>
         </div>
     </div>
 </div>
@@ -165,9 +185,9 @@
             <div class="col-md-1"></div>
             <div class="col-md-3" id="we-center"><i class="fa fa-paper-plane-o fa-4x"></i><br>МИ РЕАЛІЗОВУЄМО<br>
                 <div id="we">
-                    <br>комп'ютерну техніку</br>
-                    <br>портативну техніку</br>
-                    <br>мобільні пристрої</br>
+                    <br>комп'ютерну техніку
+                    <br>портативну техніку
+                    <br>мобільні пристрої
                     <br>побутову техніку оргтехніку
                 </div>
             </div>
@@ -196,8 +216,6 @@
         </div>
     </div>
     <div class="col-md-1"></div>
-</div>
-</div>
 </div>
 <!--Футтер-->
 <div id="footer">
@@ -251,10 +269,5 @@
     </div>
 
 </div>
-<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
-<!-- Include all compiled plugins (below), or include individual files as needed -->
-<script src="js/bootstrap.js"></script>
-
 </body>
 </html>

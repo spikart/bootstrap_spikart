@@ -4,7 +4,11 @@ body {
     font-size: 12px;
     line-height: 20px;
 }
-
+.navbar {
+    min-height: 41px;
+    margin-bottom: 0px;
+    border: 0px;
+}
 .navbar-toggle {
     margin-top: 3px;
     margin-right: 10px;
@@ -57,12 +61,19 @@ body {
     padding-left: 8px;
 }
 
-#header-container {
+.header-container {
     margin-bottom: 0px;
     background: #FFF none repeat scroll 0% 0%;
-    padding-top: 41px;
+    padding-top: 0px;
 
 }
+
+.f-nav{
+    z-index: 9999;
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;}
 
 #header-inner-container {
     background: #53A875 none repeat scroll 0% 0%;
