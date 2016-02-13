@@ -86,8 +86,57 @@ body {
     margin-left: 38px;
 }
 
+#chats {
+    padding-top: 20px;
+}
+
+#chats a {
+    text-decoration: none;
+    outline: none;
+}
+
+#chats b {
+    color: #EDFFE9;
+}
+
+#chats .fa {
+    width: 40px;
+
+    padding-right: 12px;
+}
+
+#skype .fa {
+    color: #EDFFE9;
+    transition: .6s ease-out;
+    transition-delay: 0.0s;
+}
+
+#skype .fa:hover {
+    color: #00AFF0;
+}
+
+#viber .fa {
+    color: #EDFFE9;
+    transition: .6s ease-out;
+    transition-delay: 0.0s;
+}
+
+#viber .fa:hover {
+    color: #7C529E;
+}
+
+#icq .fa {
+    color: #EDFFE9;
+    transition: .6s ease-out;
+    transition-delay: 0.0s;
+}
+
+#icq .fa:hover {
+    color: #92F500;
+}
+
 #social {
-    padding-top: 10px;
+    padding-top: 20px;
 }
 
 #social a {
@@ -97,7 +146,6 @@ body {
 
 #social b {
     color: #EDFFE9;
-
 }
 
 #social .fa {
@@ -136,27 +184,17 @@ body {
     color: #57799D;
 }
 
-#skype .fa {
-    color: #EDFFE9;
-    transition: .6s ease-out;
-    transition-delay: 0.0s;
-}
-
-#skype .fa:hover {
-    color: #00AFF0;
-}
-
-#adress {
+#phone-adress {
     padding-top: 11px;
     text-align:  center;
 
 }
 
-#adress a {
+#phone-adress a {
     text-decoration: none;
 }
 
-#adress b {
+#phone-adress b {
     text-decoration: none;
     outline: none;
     color: #EDFFE9;
@@ -164,7 +202,7 @@ body {
     font-size: large;
 }
 
-#adress be {
+#phone-adress be {
     color: #EDFFE9;
     vertical-align: 12px;
     font-size: large;
@@ -172,7 +210,7 @@ body {
 
 }
 
-#adress .fa {
+#phone-adress .fa {
     width: 63px;
 }
 

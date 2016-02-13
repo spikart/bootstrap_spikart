@@ -74,28 +74,34 @@
     <div id="header-inner-container">
         <div class="container-fluid">
             <div class="row">
-                <div class="col-sm-2">
+                <div class="col-sm-3">
                     <div class="logo">
                         <img src="images/logo_center.png" alt="Спікарт" title="Spikart" class="img-responsive">
                     </div>
                 </div>
-                <div class="col-sm-5" id="social">
-                    <div id="facebook"><a
-                            href="https://www.facebook.com/pages/%D0%9F%D0%9F-%D0%A1%D0%BF%D1%96%D0%BA%D0%B0%D1%80%D1%82/274396342581927"
-                            target="_blank"><i class="fa fa-facebook fa-2x"></i><b>Ми на Facebook</b></a></div>
-                    <div id="google-plus"><a href="#" target="_blank"><i class="fa fa-google-plus fa-2x"></i><b>Ми в
-                                Google+</b></a></div>
-                    <div id="vk"><a href="#" target="_blank"><i class="fa fa-vk fa-2x"></i><b>Ми у Вконтакте</b></a>
-                    </div>
-                    <div id="skype"><a href="#" target="_blank"><i class="fa fa-skype fa-2x"></i><b>Ми у Skype</b></a>
-                    </div>
-                </div>
-                <div class="col-sm-5" id="adress">
+                <div class="col-sm-3" id="phone-adress">
                     <div id="phone"><a href="#" target="_blank"><i class="fa fa-phone-square fa-4x"></i><b>+38(032)276-15-20</b></a>
                     </div>
-                    <div id="e-mail"><a href="#" target="_blank"><i class="fa fa-envelope fa-4x"></i>
-                            <be>sspikart@gmail.com</be>
-                        </a></div>
+                    <div id="e-mail"><a href="#" target="_blank"><i class="fa fa-envelope fa-4x"></i><be>sspikart@gmail.com</be></a></div>
+            </div>
+                <div class="row">
+                    <div class="col-sm-3" id="chats">
+                        <div id="skype"><a
+                                href="#" target="_blank"><i class="fa fa-skype fa-2x"></i><b>Ми у Skype</b></a></div>
+                        <div id="viber"><a href="#" target="_blank"><i class="fa fa-mobile fa-2x"></i><b>Ми в
+                                    Viber</b></a></div>
+                        <div id="icq"><a href="#" target="_blank"><i class="fa fa-comment fa-2x"></i><b>Ми у Icq</b></a>
+                        </div>
+                    </div>
+                    <div class="col-sm-3" id="social">
+                        <div id="facebook"><a
+                                href="https://www.facebook.com/pages/%D0%9F%D0%9F-%D0%A1%D0%BF%D1%96%D0%BA%D0%B0%D1%80%D1%82/274396342581927"
+                                target="_blank"><i class="fa fa-facebook fa-2x"></i><b>Ми на Facebook</b></a></div>
+                        <div id="google-plus"><a href="#" target="_blank"><i class="fa fa-google-plus fa-2x"></i><b>Ми в
+                                    Google+</b></a></div>
+                        <div id="vk"><a href="#" target="_blank"><i class="fa fa-vk fa-2x"></i><b>Ми у Вконтакте</b></a>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
