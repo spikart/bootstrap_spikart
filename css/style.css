@@ -106,33 +106,36 @@ body {
 }
 
 #skype .fa {
-    color: #EDFFE9;
+    color: #00AFF0;
     transition: .6s ease-out;
     transition-delay: 0.0s;
 }
 
+
+
+
 #skype .fa:hover {
-    color: #00AFF0;
+    color: #EDFFE9;
 }
 
 #viber .fa {
-    color: #EDFFE9;
+    color: #7C529E;
     transition: .6s ease-out;
     transition-delay: 0.0s;
 }
 
 #viber .fa:hover {
-    color: #7C529E;
+    color: #EDFFE9;
 }
 
 #icq .fa {
-    color: #EDFFE9;
+    color: #92F500;
     transition: .6s ease-out;
     transition-delay: 0.0s;
 }
 
 #icq .fa:hover {
-    color: #92F500;
+    color: #EDFFE9;
 }
 
 #social {
@@ -155,33 +158,33 @@ body {
 }
 
 #facebook .fa {
-    color: #EDFFE9;
+    color: #3A5795;
     transition: .6s ease-out;
     transition-delay: 0.0s;
 }
 
 #facebook .fa:hover {
-    color: #3A5795;
+    color: #EDFFE9;
 }
 
 #google-plus .fa {
-    color: #EDFFE9;
+    color: #DB4437;
     transition: .6s ease-out;
     transition-delay: 0.0s;
 }
 
 #google-plus .fa:hover {
-    color: #DB4437;
+    color: #EDFFE9;
 }
 
 #vk .fa {
-    color: #EDFFE9;
+    color: #57799D;
     transition: .6s ease-out;
     transition-delay: 0.0s;
 }
 
 #vk .fa:hover {
-    color: #57799D;
+    color: #EDFFE9;
 }
 
 #phone-adress {
@@ -223,7 +226,7 @@ body {
 }
 
 #phone .fa {
-    color: #EDFFE9;
+    color: #AAEEFF;
     transition: .6s ease-out;
     transition-delay: 0.0s;
     font-size: 56px;
@@ -231,7 +234,7 @@ body {
 }
 
 #phone .fa:hover {
-    color: #AAEEFF;
+    color: #EDFFE9;
 }
 
 #e-mail {
@@ -240,13 +243,13 @@ body {
 }
 
 #e-mail .fa {
-    color: #EDFFE9;
+    color: #FFDD00;
     transition: .6s ease-out;
     transition-delay: 0.0s;
 }
 
 #e-mail .fa:hover {
-    color: #FFDD00;
+    color: #EDFFE9;
 }
 
 #carousel {
@@ -256,7 +259,7 @@ body {
 
 }
 .carousel {
-    background-image: url(../images/bac_comp.jpg);
+    background-image: url(../images/office_spikart_1.png);
     background-size: cover;
 }
 .carousel-inner > .item > img {

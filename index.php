@@ -83,8 +83,7 @@
                     <div id="phone"><a href="#" target="_blank"><i class="fa fa-phone-square fa-4x"></i><b>+38(032)276-15-20</b></a>
                     </div>
                     <div id="e-mail"><a href="#" target="_blank"><i class="fa fa-envelope fa-4x"></i><be>sspikart@gmail.com</be></a></div>
-            </div>
-                <div class="row">
+                </div>
                     <div class="col-sm-3" id="chats">
                         <div id="skype"><a
                                 href="#" target="_blank"><i class="fa fa-skype fa-2x"></i><b>Ми у Skype</b></a></div>
@@ -102,11 +101,11 @@
                         <div id="vk"><a href="#" target="_blank"><i class="fa fa-vk fa-2x"></i><b>Ми у Вконтакте</b></a>
                         </div>
                     </div>
-                </div>
             </div>
         </div>
     </div>
 </div>
+
 <!--Слайдшоу-->
 <!--Індикатори слайдів-->
 <div class="carousel slide" id="carousel" data-interval="2500">
