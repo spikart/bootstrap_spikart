@@ -5,12 +5,13 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
-    <link rel="shortcut icon" href="/images/favicon.png" type="image/png">
+    <link rel="shortcut icon" href="/images/favicon_test-3.png" type="image/png">
     <title>Spikart</title>
     <!-- Bootstrap -->
     <link href="css/bootstrap.css" rel="stylesheet">
     <link href="css/style.css" rel="stylesheet">
     <link href="css/font-awesome.css" rel="stylesheet">
+    <link href="css/animate.css" rel="stylesheet">
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
     <!--[if lt IE 9]>
@@ -20,10 +21,12 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->
     <script src="js/bootstrap.js"></script>
+    <script src="http://code.jquery.com/jquery-latest.min.js"></script>
+
+
     <![endif]-->
 </head>
 <body>
-
 <script>
     jQuery("document").ready(function($){
 
@@ -36,9 +39,26 @@
                 nav.removeClass("f-nav");
             }
         });
-
     });
     </script>
+
+
+<script>
+    $(function() {
+        $("fa").click(function() {
+            animate("#footer", 'bounce');
+            return false;
+        });
+    });
+
+    function animate(element_ID, animation) {
+        $(element_ID).addClass(animation);
+        var wait = window.setTimeout( function(){
+            $(element_ID).removeClass(animation)}, 1300
+        );
+    }
+</script>
+
 
 <!--Меню-->
 <div class="navbar navbar-top">
@@ -74,25 +94,32 @@
     <div id="header-inner-container">
         <div class="container-fluid">
             <div class="row">
-                <div class="col-sm-3">
-                    <div class="logo">
+                <div class="col-sm-2">
+                    <div class="logo animated flip">
                         <img src="images/logo_center.png" alt="Спікарт" title="Spikart" class="img-responsive">
                     </div>
                 </div>
-                <div class="col-sm-3" id="phone-adress">
-                    <div id="phone"><a href="#" target="_blank"><i class="fa fa-phone-square fa-4x"></i><b>+38(032)276-15-20</b></a>
+                <div class="col-sm-4" id="phone-adress">
+
+                    <div id="phone"><a href="#" target="_blank"><i class="fa fa-phone-square fa-4x" id="left-square"></i>
+                                <b>+38(032)276-15-20
+                                <br>+38(096)091-22-11
+                                <br>+38(073)073-22-11
+                                </b></a>
                     </div>
-                    <div id="e-mail"><a href="#" target="_blank"><i class="fa fa-envelope fa-4x"></i><be>sspikart@gmail.com</be></a></div>
+
+                    
+
                 </div>
-                    <div class="col-sm-3" id="chats">
+                    <div class="col-sm-2"></div>
+                    <div class="col-sm-2" id="chats">
                         <div id="skype"><a
-                                href="#" target="_blank"><i class="fa fa-skype fa-2x"></i><b>Ми у Skype</b></a></div>
-                        <div id="viber"><a href="#" target="_blank"><i class="fa fa-mobile fa-2x"></i><b>Ми в
-                                    Viber</b></a></div>
-                        <div id="icq"><a href="#" target="_blank"><i class="fa fa-comment fa-2x"></i><b>Ми у Icq</b></a>
+                                href="#" target="_blank"><i class="fa fa-skype fa-2x"></i><b>Skype</b></a></div>
+                        <div id="viber"><a href="#" target="_blank"><i class="fa fa-mobile fa-2x"></i><b>Viber</b></a></div>
+                        <div id="icq"><a href="#" target="_blank"><i class="fa fa-comment fa-2x"></i><b>Icq</b></a>
                         </div>
                     </div>
-                    <div class="col-sm-3" id="social">
+                    <div class="col-sm-2" id="social">
                         <div id="facebook"><a
                                 href="https://www.facebook.com/pages/%D0%9F%D0%9F-%D0%A1%D0%BF%D1%96%D0%BA%D0%B0%D1%80%D1%82/274396342581927"
                                 target="_blank"><i class="fa fa-facebook fa-2x"></i><b>Ми на Facebook</b></a></div>
@@ -128,7 +155,7 @@
                         </div>
                     </div>
                     <div class="item">
-                        <img src="images/proba23.png" alt="">
+                        <img src="images/proba22.png" alt="">
                         <div class="carousel-caption">
                             <h3>Другий слайд</h3>
                             <p>Перегляд слайду!!!</p>
@@ -224,7 +251,7 @@
 </div>
 <!--Футтер-->
 <div id="footer">
-    <div id="logo-footer">
+    <div class="animated tada" id="logo-footer">
         <a href="#" id="contakt-foofter" title="Контакти">
         <span class="fa-stack fa-lg" id="fa-stakc">
            <i class="fa fa-circle fa-stack-2x"></i>
@@ -236,7 +263,7 @@
     <div id="adress-top">
         79005 м. Львів. Вул. Зелена 5д/5.
         <br>Тел./Факс +3(032)276-15-20
-        <br>e-mail: <a href="#">sspikart@gmail.com</a>
+        <br>e-mail: <a href="#">store@spikart.com.ua</a>
         </div>
     </div>
 </div>
