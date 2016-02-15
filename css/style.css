@@ -71,20 +71,19 @@ body {
     margin-left: 38px;
 }
 #chats {
-    padding-top: 10px;
-    float: left;
+    width: 40px;
+    padding-top: 5px;
+    text-align: center;
+
 }
 #skype {
-    float: left;
-    padding-left: 10px;
+    padding-top: 0px;
 }
 #viber {
-    float: left;
-    padding-left: 10px;
+    padding-top: 5px;
 }
 #e-mail {
-    float: left;
-    padding-left: 10px;
+    padding-top: 5px;
 }
 #chats a {
     text-decoration: none;
@@ -95,23 +94,70 @@ body {
 }
 
 #social {
-    padding-top: 10px;
-    float: left;
+    width: 40px;
+    padding-top: 5px;
+
+}
+#social .image {
+    overflow:hidden;
+    width: 128px;
+    height: 128px;
 }
 
 #facebook {
-    float: left;
-    padding-left: 10px;
+    padding-top: 0px;
+    width: 28px;
+    height: 28px;
+}
+
+#facebook img {
+    -moz-transition: all 0.5s ease-out;
+    -o-transition: all 0.5s ease-out;
+    -webkit-transition: all 0.5s ease-out;
+}
+
+#facebook img:hover{
+    -webkit-transform: scale(1.5);
+    -moz-transform: scale(1.5);
+    -o-transform: scale(1.5);
 }
 
 #google-plus {
-    float: left;
-    padding-left: 10px;
+    padding-top: 3px;
+
+    width: 28px;
+    height: 28px;
+}
+
+#google-plus img {
+    -moz-transition: all 0.5s ease-out;
+    -o-transition: all 0.5s ease-out;
+    -webkit-transition: all 0.5s ease-out;
+}
+
+#google-plus img:hover{
+    -webkit-transform: scale(1.5);
+    -moz-transform: scale(1.5);
+    -o-transform: scale(1.5);
 }
 
 #vk {
-    float: left;
-    padding-left: 10px;
+    padding-top: 5px;
+
+    width: 28px;
+    height: 28px;
+}
+
+#vk img {
+    -moz-transition: all 0.5s ease-out;
+    -o-transition: all 0.5s ease-out;
+    -webkit-transition: all 0.5s ease-out;
+}
+
+#vk img:hover{
+    -webkit-transform: scale(1.5);
+    -moz-transform: scale(1.5);
+    -o-transform: scale(1.5);
 }
 
 #social a {
@@ -123,7 +169,7 @@ body {
 }
 
 #phone-adress {
-    padding-top: 11px;
+    padding-top: 20px;
     text-align:  left;
 }
 #phone-adress a {
@@ -133,7 +179,7 @@ body {
     text-decoration: none;
     outline: none;
     color: #EDFFE9;
-    vertical-align: 5px;
+    vertical-align: 0px;
     font-size: inherit;
 }
 #phone-adress .fa {
@@ -150,7 +196,12 @@ body {
     transition: .6s ease-out;
     transition-delay: 0.0s;
     font-size: 56px;
-    margin-top: -3px;
+    padding-top: 3px;
+}
+
+#phone .fa:hover {
+    color: #EDFFE9;
+
 }
 
 .carousel {

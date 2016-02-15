@@ -101,19 +101,11 @@
                         <img src="images/logo_center.png" alt="Спікарт" title="Spikart" class="img-responsive">
                     </div>
                 </div>
-                <div class="col-sm-4" id="phone-adress">
-                    <div id="phone"><a href="#" target="_blank"><i class="fa fa-phone-square fa-4x" id="left-square"></i>
-                                <b>+38(032)276-15-20
-                                <br>+38(096)091-22-11
-                                <br>+38(073)073-22-11
-                                </b></a>
-                    </div>
-                </div>
-                <div class="col-sm-2"></div>
-                <div class="col-sm-2">
+                <div class="col-sm-6"></div>
+                <div class="col-sm-1">
                     <div id="chats">
-                        <div id="skype"><a href="skype:spikart.com.ua?call" target="_blank"><img src="images/social/skype_logo_200.png" width="33"
-                                                                                                 height="33" alt="Skype" title="Skype" class="img-responsive"></a></div>
+                        <div id="skype"><a href="skype:spikart.com.ua?call" target="_blank"><img src="images/social/skype_logo_200.png" width="28"
+                                                                                                 height="28" alt="Skype" title="Skype" class="img-responsive"></a></div>
                         <script>
                             $(function(){
 
@@ -128,8 +120,8 @@
                                 });
                             });
                         </script>
-                        <div id="viber"><a href="#" target="_blank"><img src="images/social/viber_logo_200.png" width="33"
-                                                                         height="33"alt="Viber" title="Viber" class="img-responsive"></a></div>
+                        <div id="viber"><a href="#" target="_blank"><img src="images/social/viber_logo_200.png" width="28"
+                                                                         height="28"alt="Viber" title="Viber" class="img-responsive"></a></div>
                         <script>
                             $(function(){
 
@@ -145,8 +137,8 @@
                                 });
                             });
                         </script>
-                        <div id="e-mail"><a href="#" target="_blank"><img src="images/social/gmail_logo_200.png" width="33"
-                                                                          height="33"alt="E-mail" title="E-mail" class="img-responsive"></a></div>
+                        <div id="e-mail"><a href="#" target="_blank"><img src="images/social/e-mail_logo_200.png" width="28"
+                                                                          height="28"alt="E-mail" title="E-mail" class="img-responsive"></a></div>
                         <script>
                             $(function(){
 
@@ -163,61 +155,28 @@
                             });
                         </script>
                     </div></div>
-                <div class="col-sm-2">
+                <div class="col-sm-1">
 
                     <div id="social">
                         <div id="facebook"><a href="https://www.facebook.com/pages/%D0%9F%D0%9F-%D0%A1%D0%BF%D1%96%D0%BA%D0%B0%D1%80%D1%82/274396342581927"
-                                    target="_blank"><img src="images/social/facebook_logo_200.png" width="33"
-                                                         height="33"alt="Facebook" title="Facebook" class="img-responsive"></a></div>
-                        <script>
-                            $(function(){
+                                    target="_blank"><img src="images/social/facebook_logo_200.png" width="28"
+                                                         height="28"alt="Facebook" title="Facebook" class="img-responsive"></a></div>
 
-                                $('#facebook').jrumble({
-                                    x: 2,
-                                    y: 2,
-                                    rotation: 1
-                                });
-                                $('#facebook').hover(function(){
-                                    $(this).trigger('startRumble');
-                                }, function(){
-                                    $(this).trigger('stopRumble');
-                                });
-                            });
-                        </script>
-                        <div id="google-plus"><a href="#" target="_blank"><img src="images/social/google-plus_logo_200.png" width="33"
-                                                                               height="33"alt="Google+" title="Google+" class="img-responsive"></a></div>
-                        <script>
-                            $(function(){
+                        <div id="google-plus"><a href="#" target="_blank"><img src="images/social/google-plus_logo_200.png" width="28"
+                                                                               height="28"alt="Google+" title="Google+" class="img-responsive"></a></div>
 
-                                $('#google-plus').jrumble({
-                                    x: 2,
-                                    y: 2,
-                                    rotation: 1
-                                });
-                                $('#google-plus').hover(function(){
-                                    $(this).trigger('startRumble');
-                                }, function(){
-                                    $(this).trigger('stopRumble');
-                                });
-                            });
-                        </script>
-                        <div id="vk"><a href="#" target="_blank"><img src="images/social/vk_logo_200.png" width="33"
-                                                                      height="33"alt="Вконтакте" title="Вконтакте" class="img-responsive"></a></div>
-                        <script>
-                            $(function(){
+                        <div id="vk"><a href="#" target="_blank"><img src="images/social/vk_logo_200.png" width="28"
+                                                                      height="28"alt="Вконтакте" title="Вконтакте" class="img-responsive"></a></div>
 
-                                $('#vk').jrumble({
-                                    x: 2,
-                                    y: 2,
-                                    rotation: 1
-                                });
-                                $('#vk').hover(function(){
-                                    $(this).trigger('startRumble');
-                                }, function(){
-                                    $(this).trigger('stopRumble');
-                                });
-                            });
-                        </script>
+                    </div>
+                </div>
+
+                <div class="col-sm-2" id="phone-adress">
+                    <div id="phone"><a href="#" target="_blank"><i class="fa fa-phone-square fa-4x" id="left-square"></i>
+                            <b>+38(032)276-15-20
+                                <br>+38(096)091-22-11
+                                <br>+38(073)073-22-11
+                            </b></a>
                     </div>
                 </div>
             </div>
