@@ -110,11 +110,10 @@
                     </div>
                 </div>
                 <div class="col-sm-2"></div>
-                <div class="col-sm-2"></div>
                 <div class="col-sm-2">
                     <div id="chats">
                         <div id="skype"><a href="skype:spikart.com.ua?call" target="_blank"><img src="images/social/skype_logo_200.png" width="33"
-                                                                         height="33" alt="Skype" title="Skype" class="img-responsive"></a></div>
+                                                                                                 height="33" alt="Skype" title="Skype" class="img-responsive"></a></div>
                         <script>
                             $(function(){
 
@@ -163,7 +162,9 @@
                                 });
                             });
                         </script>
-                    </div>
+                    </div></div>
+                <div class="col-sm-2">
+
                     <div id="social">
                         <div id="facebook"><a href="https://www.facebook.com/pages/%D0%9F%D0%9F-%D0%A1%D0%BF%D1%96%D0%BA%D0%B0%D1%80%D1%82/274396342581927"
                                     target="_blank"><img src="images/social/facebook_logo_200.png" width="33"
