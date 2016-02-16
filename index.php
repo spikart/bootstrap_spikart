@@ -126,10 +126,43 @@
                         <div class="col-sm-5"></div>
                         <div class="col-sm-3">
                             <ul class="skype-mail">
-                                <li><a href="#" target="_blank"><img src="images/social/skype_logo_200.png" alt="Skype" title="Skype" class="img-responsive"></a></li>
-                                <li><a href="#" target="_blank"><img src="images/social/e-mail_logo_200.png" alt="E-mail" title="E-mail" class="img-responsive"></a></li>
+                                <li><a href="#" target="_blank"><img src="images/social/skype_logo_200.png" id="skype" alt="Skype" title="Skype" class="img-responsive"></a></li>
+                                <li><a href="#" target="_blank"><img src="images/social/e-mail_logo_200.png" id="email" alt="E-mail" title="E-mail" class="img-responsive"></a></li>
                             </ul>
                         </div>
+
+                        <script>
+                            $(function(){
+
+                                $('#skype').jrumble({
+                                    x: 2,
+                                    y: 2,
+                                    rotation: 1
+                                });
+                                $('#skype').hover(function(){
+                                    $(this).trigger('startRumble');
+                                }, function(){
+                                    $(this).trigger('stopRumble');
+                                });
+                            });
+                        </script>
+                        <script>
+                            $(function(){
+
+                                $('#email').jrumble({
+                                    x: 2,
+                                    y: 2,
+                                    rotation: 1
+                                });
+                                $('#email').hover(function(){
+                                    $(this).trigger('startRumble');
+                                }, function(){
+                                    $(this).trigger('stopRumble');
+                                });
+                            });
+                        </script>
+
+
                         <div class="col-sm-3">
                             <div class="shop-button" id="cart">
                                 <button type="button" class="btn btn-inverse btn-lg">Кошик</button>
