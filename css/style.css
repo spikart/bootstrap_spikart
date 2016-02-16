@@ -32,11 +32,12 @@ body {
 #responsive-menu {
     padding-top: 1px;
     position: relative;
+    padding-right: 8px;
 }
 #responsive-menu a {
     color: #EDFFE9;
-    padding: 6px;
-    margin: 2px 5px 0px 14px;
+    padding: 6px 6px 5px 6px;
+    margin: 2px 5px 0px 10px;
     background: #128522;
     box-shadow: 2px 2px 2px #006712;
     transition: .6s ease-out;
@@ -70,21 +71,16 @@ body {
     z-index: 1;
     margin-left: 38px;
 }
+
+
+/*-----Skype&E-mail-----*/
 #chats {
     width: 40px;
     padding-top: 5px;
     text-align: center;
 
 }
-#skype {
-    padding-top: 0px;
-}
-#viber {
-    padding-top: 5px;
-}
-#e-mail {
-    padding-top: 5px;
-}
+
 #chats a {
     text-decoration: none;
     outline: none;
@@ -93,21 +89,51 @@ body {
     color: #EDFFE9;
 }
 
+#skype {
+    padding-top: 0px;
+}
+
+#e-mail {
+    padding-top: 5px;
+}
+
+/*-------END-------*/
+
+.social li {
+    height: 28px;
+    width: 28px;
+    float: left;
+    list-style: none;
+    margin: 6px;
+}
+
+
+/* -----Social-----
+
+
 #social {
     width: 40px;
     padding-top: 5px;
 
 }
 #social .image {
-    overflow:hidden;
     width: 128px;
     height: 128px;
+}
+
+#social a {
+    text-decoration: none;
+    outline: none;
+}
+#social b {
+    color: #EDFFE9;
 }
 
 #facebook {
     padding-top: 0px;
     width: 28px;
     height: 28px;
+
 }
 
 #facebook img {
@@ -159,16 +185,65 @@ body {
     -moz-transform: scale(1.5);
     -o-transform: scale(1.5);
 }
-
-#social a {
-    text-decoration: none;
-    outline: none;
+*/
+/*-------END-------*/
+.skype-mail li {
+    height: 36px;
+    width: 36px;
+    float: left;
+    list-style: none;
+    margin: 12px;
 }
-#social b {
-    color: #EDFFE9;
+/*---Header-Button---*/
+
+#cart {
+    margin-top: 8px;
+    margin-bottom: 4px;
 }
 
-#phone-adress {
+#cart > .btn {
+    font-size: 12px;
+    line-height: 18px;
+    color: #FFF;
+}
+
+.btn {
+    padding: 7.5px 12px;
+    font-size: 12px;
+    box-shadow: inset 0 1px 0 rgba(255,255,255,.2), 0 1px 2px rgba(0,0,0,.05);
+}
+
+.btn-inverse {
+    color: #ffffff;
+    font-size: 18px;
+    text-shadow: 1px 1px #004800;
+    background-color: #44ee77;
+    border-radius: 0;
+    right: 0;
+    width: 60%;
+    min-width: 200px;
+    box-shadow: 0px 0px 0px #44ee77, inset 0 25px 20px -10px #45a268,
+    inset 0 -15px 20px -10px rgba(0, 0, 0, 0.3);
+    -moz-box-shadow: 1px 1px 1px #44ee77, inset 0 25px 20px -10px #45a268,
+    inset 0 -15px 20px -10px rgba(0, 0, 0, 0.15);
+    -o-box-shadow: 1px 1px 1px #44ee77, inset 0 25px 20px -10px #45a268,
+    inset 0 -15px 20px -10px rgba(0, 0, 0, 0.3);
+    -webkit-box-shadow: 0px 0px 0px #45a268,
+    inset 0 25px 20px -10px #44ee77,
+    inset 0 -15px 20px -10px rgba(0, 0, 0, 0.3);
+    -moz-transition: background-color 1s ease;
+    -o-transition: background-color 1s ease;
+    -webkit-transition: background-color .5s ease-in-out;
+    transition: background-color 1s ease;
+}
+
+.btn-lg {
+    padding: 10px 16px;
+    font-size: 15px;
+}
+
+
+/*#phone-adress {
     padding-top: 20px;
     text-align:  left;
 }
@@ -203,6 +278,66 @@ body {
     color: #EDFFE9;
 
 }
+*/
+#phone-a ul {
+    margin-bottom: -4px;
+}
+
+#numb-phone {
+    padding-top: 4px;
+}
+
+
+#numb-phone a {
+    font-size: 18px;
+    color: #ffffff;
+    margin-bottom: 10px;
+    text-align: center;
+    padding-left: 5px;
+}
+
+#phone-a li {
+    height: 36px;
+    width: 36px;
+    list-style: none;
+    float: left;
+    padding-bottom: 5px;
+}
+
+#ukrtelecom .img {
+    padding-right: 5px;
+}
+
+#kyivstar .img {
+    padding-right: 5px;
+}
+
+#lifecell .img {
+    padding-right: 5px;
+}
+
+
+/*#ukrtelecom {
+    height: 36px;
+    width: 36px;
+    list-style: none;
+
+}
+
+#kyivstar {
+    height: 36px;
+    width: 36px;
+    list-style: none;
+
+}
+
+#lifecell {
+    height: 36px;
+    width: 36px;
+    list-style: none;
+
+}
+*/
 
 .carousel {
     border-bottom: #009688 solid 8px;
@@ -262,7 +397,7 @@ body {
     border-bottom: #53A875 solid 8px;
 }
 #we-center{
-margin: auto;}
+    margin: auto;}
 #we{
     text-align: center;
     color: #000000;
@@ -283,34 +418,42 @@ margin: auto;}
     margin-bottom: 45px;
     padding-top: 20px;
 }
+
 #footer {
     background-color: #EDFFE9;
     text-align: center;
 }
-#contakt-foofter{
+
+#contakt-foofter {
     color: #53A875;
     font-size: 44px;
     transition: .4s ease-out;
-    transition-delay: 0.0s;}
+    transition-delay: 0.0s;
+}
 
-    #contakt-foofter:hover {
+#contakt-foofter:hover {
     color: #EDFFE9;
 }
+
 #contakt-foofter .fa-compass {
     color: #EDFFE9;
     font-size: 100px;
     transition: .4s ease-out;
     transition-delay: 0.0s;
 }
+
 #contakt-foofter .fa-compass:hover {
     color: #53A875;
 }
+
 #fa-stakc {
     margin-top: -58px;
 }
+
 #contakt{
     margin-top: 10px;
 }
+
 #adress-footer {
     background-color: #EDFFE9;
     color: #53A875;
@@ -319,16 +462,20 @@ margin: auto;}
     padding-bottom: 15px;
     border-bottom: #53A875 solid 8px;
 }
+
 #adress-top {
     color: #000000;
 }
+
 #adress-top a{
     color: #53A875;
 }
+
 #top-footer {
     color: #009688;
     text-align: center;
 }
+
 #logo-footer {
     -webkit-animation-duration: 1s;
     -webkit-animation-delay: 1s;

@@ -66,31 +66,50 @@
 <div class="navbar navbar-top">
     <nav id="top">
         <div class="container-fluid">
-            <div class="navbar-header">
-                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#responsive-menu">
-                    <span class="fa-stack fa-lg">
-                      <i class="fa fa-square-o fa-stack-2x"></i>
-                      <i class="fa fa-bars fa-stack-1x"></i>
-                    </span>
-                </button>
-            </div>
-            <div class="collapse navbar-collapse pull-right" id="responsive-menu">
-                <ul class="nav navbar-nav">
+            <div class="row">
 
-                    <li><a href="#""><i class="fa fa-home"></i>Головна</a></li>
-                    <li><a href="http://spikart.com.ua/shop/" target="_blank"><i class="fa fa-shopping-bag"></i>
-                            Магазин</a>
-                    </li>
-                    <li><a href="#"><i class="fa fa-info-circle"></i>Про нас</a></li>
-                    <li><a href="#"><i class="fa fa-arrows-alt"></i>
-                            Напрямки діяльності</a></li>
-                    <li>
-                        <a href="#"><i class="fa fa-info-circle"></i>Контакти</a></li>
-                </ul>
+                <div class="col-sm-1"></div>
+                <div class="col-sm-3">
+                    <ul class="social">
+                        <li><a href="#" target="_blank"><img src="images/social/vk_logo_200.png" alt="Вконтаке" title="Вконтаке" class="img-responsive"></a></li>
+                        <li><a href="#" target="_blank"><img src="images/social/google-plus_logo_200.png" alt="Google+" title="Google+" class="img-responsive"></a></li>
+                        <li><a href="#" target="_blank"><img src="images/social/facebook_logo_200.png" alt="Facebook" title="Facebook" class="img-responsive"></a></li>
+                    </ul>
+                </div>
+                <div class="col-sm-8">
+                    <div class="navbar-header">
+                        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#responsive-menu">
+                        <span class="fa-stack fa-lg">
+                          <i class="fa fa-square-o fa-stack-2x"></i>
+                          <i class="fa fa-bars fa-stack-1x"></i>
+                        </span>
+                        </button>
+                    </div>
+                    <div class="collapse navbar-collapse pull-right" id="responsive-menu">
+                        <ul class="nav navbar-nav">
+
+                            <li><a href="#""><i class="fa fa-home"></i>Головна</a></li>
+                            <li><a href="http://spikart.com.ua/shop/" target="_blank"><i class="fa fa-shopping-bag"></i>
+                                    Магазин</a>
+                            </li>
+                            <li><a href="#"><i class="fa fa-info-circle"></i>Про нас</a></li>
+                            <li><a href="#"><i class="fa fa-arrows-alt"></i>
+                                    Напрямки діяльності</a></li>
+                            <li>
+                                <a href="#"><i class="fa fa-info-circle"></i>Контакти</a></li>
+                        </ul>
+                    </div>
+                </div>
+
+
             </div>
         </div>
     </nav>
 </div>
+
+
+
+
 <!--Шапка-->
 <div class="header-container">
     <div id="header-inner-container">
@@ -101,82 +120,58 @@
                         <img src="images/logo_center.png" alt="Спікарт" title="Spikart" class="img-responsive">
                     </div>
                 </div>
-                <div class="col-sm-6"></div>
-                <div class="col-sm-1">
-                    <div id="chats">
-                        <div id="skype"><a href="skype:spikart.com.ua?call" target="_blank"><img src="images/social/skype_logo_200.png" width="28"
-                                                                                                 height="28" alt="Skype" title="Skype" class="img-responsive"></a></div>
-                        <script>
-                            $(function(){
-
-                                $('#skype').jrumble({
-
-                                    speed: 0
-                                });
-                                $('#skype').hover(function(){
-                                    $(this).trigger('startRumble');
-                                }, function(){
-                                    $(this).trigger('stopRumble');
-                                });
-                            });
-                        </script>
-                        <div id="viber"><a href="#" target="_blank"><img src="images/social/viber_logo_200.png" width="28"
-                                                                         height="28"alt="Viber" title="Viber" class="img-responsive"></a></div>
-                        <script>
-                            $(function(){
-
-                                $('#viber').jrumble({
-                                    x: 2,
-                                    y: 2,
-                                    rotation: 1
-                                });
-                                $('#viber').hover(function(){
-                                    $(this).trigger('startRumble');
-                                }, function(){
-                                    $(this).trigger('stopRumble');
-                                });
-                            });
-                        </script>
-                        <div id="e-mail"><a href="#" target="_blank"><img src="images/social/e-mail_logo_200.png" width="28"
-                                                                          height="28"alt="E-mail" title="E-mail" class="img-responsive"></a></div>
-                        <script>
-                            $(function(){
-
-                                $('#e-mail').jrumble({
-                                    x: 0,
-                                    y: 0,
-                                    rotation: 15
-                                });
-                                $('#e-mail').hover(function(){
-                                    $(this).trigger('startRumble');
-                                }, function(){
-                                    $(this).trigger('stopRumble');
-                                });
-                            });
-                        </script>
-                    </div></div>
-                <div class="col-sm-1">
-
-                    <div id="social">
-                        <div id="facebook"><a href="https://www.facebook.com/pages/%D0%9F%D0%9F-%D0%A1%D0%BF%D1%96%D0%BA%D0%B0%D1%80%D1%82/274396342581927"
-                                    target="_blank"><img src="images/social/facebook_logo_200.png" width="28"
-                                                         height="28"alt="Facebook" title="Facebook" class="img-responsive"></a></div>
-
-                        <div id="google-plus"><a href="#" target="_blank"><img src="images/social/google-plus_logo_200.png" width="28"
-                                                                               height="28"alt="Google+" title="Google+" class="img-responsive"></a></div>
-
-                        <div id="vk"><a href="#" target="_blank"><img src="images/social/vk_logo_200.png" width="28"
-                                                                      height="28"alt="Вконтакте" title="Вконтакте" class="img-responsive"></a></div>
-
+                <div class="col-sm-4"></div>
+                <div class="col-sm-6">
+                    <div class="row">
+                        <div class="col-sm-5"></div>
+                        <div class="col-sm-3">
+                            <ul class="skype-mail">
+                                <li><a href="#" target="_blank"><img src="images/social/skype_logo_200.png" alt="Skype" title="Skype" class="img-responsive"></a></li>
+                                <li><a href="#" target="_blank"><img src="images/social/e-mail_logo_200.png" alt="E-mail" title="E-mail" class="img-responsive"></a></li>
+                            </ul>
+                        </div>
+                        <div class="col-sm-3">
+                            <div class="shop-button" id="cart">
+                                <button type="button" class="btn btn-inverse btn-lg">Кошик</button>
+                            </div>
+                        </div>
+                        <div class="col-sm-1"></div>
                     </div>
-                </div>
+                    <div class="row" id="phone-a">
 
-                <div class="col-sm-2" id="phone-adress">
-                    <div id="phone"><a href="#" target="_blank"><i class="fa fa-phone-square fa-4x" id="left-square"></i>
-                            <b>+38(032)276-15-20
-                                <br>+38(096)091-22-11
-                                <br>+38(073)073-22-11
-                            </b></a>
+                        <div class="col-sm-4">
+                            <div id="ukrtelecom">
+                                <li><a href="#" target="_blank"><img src="images/phone/ukrtelecom.png"
+                                                                     alt="+38(032) 276 15 20" title="+38(032) 276 15 20"
+                                                                     class="img-responsive"></a></li></div>
+                            <div id="numb-phone">
+                                <li><a>+38(032)&nbsp;276&nbsp;15&nbsp;20</a></li>
+                            </div>
+                        </div>
+
+                        <div class="col-sm-4">
+                            <div id="kyivstar">
+
+                                <li><a href="#" target="_blank"><img src="images/phone/kyivstar.png"
+                                                                     alt="+38(096) 091 22 11" title="+38(096) 091 22 11"
+                                                                     class="img-responsive"></a></li></div>
+                                <div id="numb-phone">
+                                <li><a>+38(096)&nbsp;091&nbsp;22&nbsp;11</a></li>
+
+                            </div>
+                        </div>
+
+                        <div class="col-sm-4">
+                            <div id="lifecell">
+
+                                <li><a href="#" target="_blank"><img src="images/phone/lifecell.png"
+                                                                     alt="+38(073) 073 22 11" title="+38(073) 073 22 11"
+                                                                     class="img-responsive"></a></li></div>
+                            <div id="numb-phone">
+                            <li><a>+38(073)&nbsp;073&nbsp;22&nbsp;11</a></li>
+
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
