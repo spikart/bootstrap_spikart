@@ -120,7 +120,27 @@
                         <img src="images/logo_center.png" alt="Спікарт" title="Spikart" class="img-responsive">
                     </div>
                 </div>
-                <div class="col-sm-4"></div>
+                <div class="col-sm-4">
+                                        <!-----Кнопки----
+                   <div class="button" id="b-button">
+                        <button type="button" class="btn">Темно-синя</button>
+                    </div>
+
+                    <div class="button" id="bw-button">
+                        <button type="button" class="btn">Світло-синя</button>
+                    </div>
+
+                    <div class="button" id="g-button">
+                        <button type="button" class="btn">Зелена кнопка</button>
+                    </div>
+
+                    <div class="button" id="r-button">
+                        <button type="button" class="btn">Червона кнопка</button>
+                    </div>
+
+
+                                               <-------->
+                </div>
                 <div class="col-sm-6">
                     <div class="row">
                         <div class="col-sm-5"></div>
@@ -135,9 +155,9 @@
                             $(function(){
 
                                 $('#skype').jrumble({
-                                    x: 2,
-                                    y: 2,
-                                    rotation: 1
+                                    x: 1,
+                                    y: 1,
+                                    rotation: 0
                                 });
                                 $('#skype').hover(function(){
                                     $(this).trigger('startRumble');
@@ -146,23 +166,6 @@
                                 });
                             });
                         </script>
-                        <script>
-                            $(function(){
-
-                                $('#email').jrumble({
-                                    x: 2,
-                                    y: 2,
-                                    rotation: 1
-                                });
-                                $('#email').hover(function(){
-                                    $(this).trigger('startRumble');
-                                }, function(){
-                                    $(this).trigger('stopRumble');
-                                });
-                            });
-                        </script>
-
-
                         <div class="col-sm-3">
                             <div class="shop-button" id="cart">
                                 <button type="button" class="btn btn-inverse btn-lg">Кошик</button>
@@ -346,6 +349,7 @@
         </div>
     </div>
 </div>
+<!--
 <div class="container" id="top-footer">
     <div class="container-fluid">
         <div class="row">
@@ -380,5 +384,6 @@
     </div>
 
 </div>
+-->
 </body>
 </html>
