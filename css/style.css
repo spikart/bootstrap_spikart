@@ -1,5 +1,5 @@
 body {
-    font-family: verdana;
+    font-family: 'Open Sans Condensed', sans-serif;
     font-weight: 400;
     font-size: 12px;
     line-height: 20px;
@@ -51,21 +51,32 @@ body {
     padding-right: 16px;
     padding-left: 8px;
 }
+
+        /*-----Header-----*/
 .header-container {
     margin-bottom: 0px;
     background: #FFF;
     padding-top: 0px;
     box-shadow: 3px 3px 3px #004D40;
+    position: relative;
+    z-index: 2;
 }
 .f-nav{
     z-index: 9999;
     position: fixed;
     left: 0;
     top: 0;
-    width: 100%;}
+    width: 100%;
+
+}
+
 #header-inner-container {
     background: #009688;
+
 }
+
+
+
 .logo {
     margin-bottom: -4px;
     margin-top: -4px;
@@ -213,13 +224,25 @@ body {
     margin-top: 8px;
     margin-bottom: 4px;
 }
-
 #cart > .btn {
     font-size: 12px;
     line-height: 18px;
     color: #FFF;
-    outline:none;
+    outline: none;
     border: none;
+}
+#cart .fa {
+    font-size: 13px;
+}
+#cart a {
+    text-decoration: none;
+}
+
+#cart i{
+    padding-left: 5px;
+    color: #ffffff;
+    text-align: center;
+    font-style: normal;
 }
 
 .btn {
@@ -323,16 +346,18 @@ body {
 
 
 #numb-phone a {
-    font-size: 18px;
+    font-size: 15px;
+    font-weight: bold;
     color: #ffffff;
     margin-bottom: 10px;
     text-align: center;
     padding-left: 5px;
+    text-decoration: none;
 }
 
 #phone-a li {
-    height: 30px;
-    width: 30px;
+    height: 25px;
+    width: 25px;
     list-style: none;
     float: left;
     padding-bottom: 5px;
@@ -341,12 +366,13 @@ body {
 }
 
 #phone-a li:hover {
-    height: 35px;
-    width: 35px;
+    height: 30px;
+    width: 30px;
     list-style: none;
     float: left;
     padding-bottom: 5px;
 }
+
 
 #ukrtelecom .img {
     padding-right: 5px;
@@ -359,7 +385,6 @@ body {
 #lifecell .img {
     padding-right: 5px;
 }
-
 
 /*#ukrtelecom {
     height: 36px;
@@ -385,10 +410,12 @@ body {
 
 .carousel {
     border-bottom: #01579B solid 8px;
+    z-index: 1;
 }
 .carousel {
     background-image: url(../images/office_spikart_3.png);
-    background-size: cover;
+    background-we: cover;
+    height: 700px;
 }
 .carousel-inner > .item > img {
     margin: 0 auto;
@@ -405,6 +432,9 @@ body {
 .carousel-control:focus {
     color: #128522;
 }
+
+
+
 #title-1 {
     text-align:  center;
     color: #128522;
@@ -428,7 +458,7 @@ body {
 #about-as {
     background-color: #009688;
     text-align:  center;
-    box-shadow: 3px 3px 3px #004D40;
+   
 }
 #title-2 {
     text-align:  center;
@@ -439,7 +469,7 @@ body {
     margin-top: 10px;
     margin-bottom: 0px;
     padding-top: 15px;
-    border-bottom: #01579B solid 8px;
+
 }
 #we-center{
     margin: auto;}
@@ -467,10 +497,13 @@ body {
 #footer {
     background-color: #B2EBF2;
     text-align: center;
+    border-top: #01579B solid 8px;
+    width: 100%;
+    margin-top: 25px;
 }
 
 #contakt-foofter {
-    color: #53A875;
+    color: #009688;
     font-size: 44px;
     transition: .4s ease-out;
     transition-delay: 0.0s;
@@ -488,7 +521,7 @@ body {
 }
 
 #contakt-foofter .fa-compass:hover {
-    color: #53A875;
+    color: #009688;
 }
 
 #fa-stakc {
@@ -503,7 +536,7 @@ body {
     background-color: #B2EBF2;
     color: #009688;
     text-align: center;
-    margin-top: -15px;
+    margin-top: 0px;
     padding-bottom: 15px;
     border-bottom: #01579B solid 8px;
 }
@@ -632,3 +665,87 @@ body {
 }
 
             -----*/
+
+/*----- Contakty-----*/
+#contakty {
+    margin-bottom: 10px;
+}
+
+#contakty h2,h3 {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 30px;
+    font-weight: bold;
+    color: #009688;
+    text-align:  center;
+}
+
+#map {
+    text-align:  center;
+}
+
+#maneger {
+
+    height: 190px;
+    width: 500px;
+    background-color: #F0FFF5;
+    box-shadow: 3px 3px 3px #004D40;
+}
+
+#maneger ul{
+    font-family: 'Roboto Slab', serif;
+    margin-left: -15px;
+    list-style: none;
+}
+
+#maneger img {
+    height: 110px;
+    width: 90px;
+    margin-left: 75px;
+}
+
+#accounting {
+    height: 190px;
+    width: 500px;
+    background-color: #F0FFF5;
+    box-shadow: 3px 3px 3px #004D40;
+}
+
+#accounting ul{
+    font-family: 'Roboto Slab', serif;
+    margin-left: -15px;
+    list-style: none;
+}
+
+#accounting img {
+    height: 110px;
+    width: 90px;
+    margin-left: 75px;
+}
+
+#map-adress {
+    padding-top: 30px;
+}
+
+#map-adress iframe {
+    box-shadow: 3px 3px 3px #004D40;
+}
+
+#col1 {
+    width: 50px;
+}
+#form {
+    width:500px;
+    height: 250px;
+    background-color: #F0FFF5;
+    box-shadow: 3px 3px 3px #004D40;
+}
+
+#form ul {
+    font-family: 'Roboto Slab', serif;
+    margin-left: -15px;
+    list-style: none;
+}
+
+#form img {
+    margin-left: 75px;
+}
