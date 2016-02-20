@@ -413,12 +413,14 @@ body {
     z-index: 1;
 }
 .carousel {
-    background-image: url(../images/office_spikart_3.png);
+    background-image: url(../images/carusel_back.jpg);
     background-we: cover;
     height: 700px;
 }
+
 .carousel-inner > .item > img {
     margin: 0 auto;
+
 }
 .carousel-control {
     color: #128522;
