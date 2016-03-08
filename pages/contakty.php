@@ -87,7 +87,7 @@
                     <div class="collapse navbar-collapse pull-right" id="responsive-menu">
                         <ul class="nav navbar-nav">
 
-                            <li><a href="http://www.bs-spikart.com.ua/index.php""><i class="fa fa-home"></i>Головна</a></li>
+                            <li><a href="../index.php""><i class="fa fa-home"></i>Головна</a></li>
 
                             <li><a href="../index.php#title-1"><i class="fa fa-arrows-alt"></i>
                                     Напрямки діяльності</a></li>
@@ -119,25 +119,6 @@
                     </div>
                 </div>
                 <div class="col-sm-4">
-                                        <!-----Кнопки----
-                   <div class="button" id="b-button">
-                        <button type="button" class="btn">Темно-синя</button>
-                    </div>
-
-                    <div class="button" id="bw-button">
-                        <button type="button" class="btn">Світло-синя</button>
-                    </div>
-
-                    <div class="button" id="g-button">
-                        <button type="button" class="btn">Зелена кнопка</button>
-                    </div>
-
-                    <div class="button" id="r-button">
-                        <button type="button" class="btn">Червона кнопка</button>
-                    </div>
-
-
-                                               <-------->
                 </div>
                 <div class="col-sm-6">
                     <div class="row">
@@ -217,78 +198,82 @@
     </div>
 </div>
 
-<!--Контaкти-->
+<!--Contacts-->
 <div class="container-fluid">
-    <div class="row">
+    <div class="row" id="contacts_row_1">
         <div class="col-sm-5"></div>
-        <div class="col-sm-2" id="contakty"><h2>КОНТАКТИ</h2></div>
+        <div class="col-sm-2" id="contacts"><h1>КОНТАКТИ</h1></div>
         <div class="col-sm-5"><br><br><br><br><br></div>
     </div>
     <div class="row">
         <div class="col-sm-1"></div>
-        <div class="col-sm-4" id="maneger">
-            <h3>Менеджер</h3>
+        <div class="col-sm-4" id="manager">
+            <h3>Відділ продажу</h3>
             <div class="row">
                 <div class="col-sm-6">
-                    <img src="../images/contacts/maneger.png" class="img-responsive"></div>
+                    <img src="../images/contacts/icon_sales_full.png" class="img-responsive"></div>
                 <div class="col-sm-6"><ul>
-                        <li><h4>Трофуша Тарас</h4></li>
-                        <li>тел. +38(097)979-63-63</li>
-                        <li>тел. +38(093)47-88-944</li>
-                        <li>ICQ 244-934-340</li>
-                        <li>Skype: Trof</li>
+                        <h4>
+                        <li>+38(096)091-22-11</li>
+                        <li>+38(073)073-22-11</li>
+                        <li>&nbsp</li>
+                        <li>store@spikart.com.ua</li>
+                        <li>Skype: spikart.com.ua</li>
+                        </h4>
                     </ul></div>
 
             </div>
         </div>
         <div class="col-sm-2"></div>
-        <div class="col-sm-4" id="accounting">
-            <h3>Бухгалтерія</h3>
+        <div class="col-sm-4" id="service">
+            <h3>Сервіс та гарантія</h3>
             <div class="row">
-                <div class="col-sm-6"><img src="../images/contacts/accounting.png" class="img-responsive"></div>
-                <div class="col-sm-6"><ul>
-                        <li><h4>Котецька Олександра</h4></li>
-
-                        <li>+38(093)87-98-497</li>
-                        <li>ICQ 581-326-754</li>
-                        <br><br>
-
+                <div class="col-sm-6"><img src="../images/contacts/icon_service.png" class="img-responsive"></div>
+                <div class="col-sm-6">
+                    <ul>
+                        <h4>
+                        <li>+38(032)276-15-20</li>
+                        <li>+38(096)091-22-11</li>
+                        <li>&nbsp</li>
+                        <li>support@spikart.com.ua</li>
+                        </h4>
                     </ul>
                 </div>
-
             </div>
         </div>
         <div class="col-sm-1"></div>
     </div>
-    <div class="row" id="map-adress">
+    <div class="row" id="cotacts_row_2">
         <div class="col-sm-1"></div>
-        <div class="col-sm-5" id="map">
-            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d643.3553283821451!2d24.03598209199599!3d49.83454069613703!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0000000000000000%3A0x5d05cf85e010ad13!2z0J_QnyAi0KHQv9GW0LrQsNGA0YIi!5e0!3m2!1suk!2sua!4v1455890375587" width="500" height="250" frameborder="0" style="border:0" allowfullscreen></iframe>
+        <div class="col-sm-4" id="map-adress">
+
+            <div id="map">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d643.3553283821451!2d24.03598209199599!3d49.83454069613703!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0000000000000000%3A0x5d05cf85e010ad13!2z0J_QnyAi0KHQv9GW0LrQsNGA0YIi!5e0!3m2!1suk!2sua!4v1455890375587" width="500" height="250" frameborder="0" style="border:0" allowfullscreen></iframe>
+            </div>
         </div>
-        <div class="col-sm-1" id="col1"></div>
-
-            <div class="col-sm-4" id="form">
-                <h3>Адреса</h3>
-                <div class="row">
-                    <div class="col-sm-6">
-                        <img src="../images/contacts/home.png" class="img-responsive"></div>
-                    <div class="col-sm-6"><ul>
-                            <li>79005 м.Львів.</li>
-                            <li>Вул. Зелена 5д/5.</li>
-                            <li>Тел./Факс +38(032)276-15-20</li>
-                            <li>Київстар  +38(096)091-22-11</li>
-                            <li>Lifecell  +38(073)073-22-11</li>
-                            <li>e-mail: store@spikart.com.ua</li>
-                        </ul>
-                    </div>
-
+        <div class="col-sm-2" id="col1"></div>
+        <div class="col-sm-4" id="form">
+            <h3>Адреса</h3>
+            <div class="row">
+                <div class="col-sm-6"><img src="../images/contacts/icon_home.png" class="img-responsive"></div>
+                <div class="col-sm-6">
+                    <ul>
+                    <h4>
+                        <li>79005 м.Львів.</li>
+                        <li>Вул. Зелена 5д/5.</li>
+                        <li>+38(032)276-15-20</li>
+                        <li>+38(096)091-22-11</li>
+                        <li>+38(073)073-22-11</li>
+                        <li>store@spikart.com.ua</li>
+                    </h4>
+                    </ul>
                 </div>
             </div>
-
+        </div>
         <div class="col-sm-1"></div>
     </div>
 </div>
-<!--Футтер-->
+<!--footer-->
 <div id="footer">
     <div class="animated tada" id="logo-footer">
         <a href="pages/contakty.php" id="contakt-foofter" title="Контакти">
@@ -306,42 +291,5 @@
         </div>
     </div>
 </div>
-
-<!--
-<div class="container" id="top-footer">
-    <div class="container-fluid">
-        <div class="row">
-            <div class="col-md-4">
-                <ul>
-                    <li><a href="#"></a></li>
-                    <li><a href="#"></a></li>
-                    <li><a href="#"></a></li>
-                    <li><a href="#"></a></li>
-                    <li><a href="#"></a></li>
-                </ul>
-            </div>
-            <div class="col-md-4">
-                <ul>
-                    <li><a href="#"></a></li>
-                    <li><a href="#"></a></li>
-                    <li><a href="#"></a></li>
-                    <li><a href="#"></a></li>
-                    <li><a href="#"></a></li>
-                </ul>
-            </div>
-            <div class="col-md-4">
-                <ul>
-                    <li><a href="#"></a></li>
-                    <li><a href="#"></a></li>
-                    <li><a href="#"></a></li>
-                    <li><a href="#"></a></li>
-                    <li><a href="#"></a></li>
-                </ul>
-            </div>
-        </div>
-    </div>
-
-</div>
--->
 </body>
 </html>

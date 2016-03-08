@@ -64,7 +64,7 @@
 </script>
 
 
-<!--Меню-->
+<!--Menu-->
 <div class="navbar navbar-top">
     <nav id="top">
         <div class="container-fluid">
@@ -78,7 +78,8 @@
                         <li><a href="#" target="_blank"><img src="images/social/facebook_logo_200.png" alt="Facebook" title="Facebook" class="img-responsive"></a></li>
                     </ul>
                 </div>
-                <div class="col-sm-8">
+                <div class="col-sm-2"></div>
+                <div class="col-sm-6">
                     <div class="navbar-header">
                         <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#responsive-menu">
                         <span class="fa-stack fa-lg">
@@ -99,8 +100,6 @@
                         </ul>
                     </div>
                 </div>
-
-
             </div>
         </div>
     </nav>
@@ -109,7 +108,7 @@
 
 
 
-<!--Шапка-->
+<!--Header-->
 <div class="header-container">
     <div id="header-inner-container">
         <div class="container-fluid">
@@ -122,7 +121,7 @@
                     </div>
                 </div>
                 <div class="col-sm-4">
-                                        <!-----Кнопки----
+                                        <!-----Buttons----
                    <div class="button" id="b-button">
                         <button type="button" class="btn">Темно-синя</button>
                     </div>
@@ -144,14 +143,13 @@
                 </div>
                 <div class="col-sm-6">
                     <div class="row">
-                        <div class="col-sm-5"></div>
-                        <div class="col-sm-3">
+                        <div class="col-sm-4"></div>
+                        <div class="col-sm-4">
                             <ul class="skype-mail">
                                 <li><a href="#" target="_blank"><img src="images/social/skype_logo_200.png" id="skype" alt="Skype" title="Skype" class="img-responsive"></a></li>
                                 <li><a href="#" target="_blank"><img src="images/social/e-mail_logo_200.png" id="email" alt="E-mail" title="E-mail" class="img-responsive"></a></li>
                             </ul>
                         </div>
-
                         <script>
                             $(function(){
 
@@ -167,7 +165,8 @@
                                 });
                             });
                         </script>
-                        <div class="col-sm-3">
+
+                        <div class="col-sm-4">
                             <div class="shop-button" id="cart">
                                 <button type="button" class="btn btn-inverse btn-lg">
                                     <a href="http://spikart.com.ua/shop/" target="_blank">
@@ -176,7 +175,6 @@
                                     </a></button>
                             </div>
                         </div>
-                        <div class="col-sm-1"></div>
                     </div>
                     <div class="row" id="phone-a">
 
@@ -220,56 +218,17 @@
     </div>
 </div>
 
-<!--Слайдшоу-->
-<!--Індикатори слайдів-->
-<div class="carousel slide" id="carousel" data-interval="2500">
+<div class="presentation">
     <div class="container-fluid">
         <div class="row">
             <div class="col-sm-3 col-md-3 col-lg-3"></div>
-            <div class="col-sm-6 col-md-6 col-lg-6">
-                <ol class="carousel-indicators">
-                    <li class="active" data-target="#carousel" data-slide-to="0"></li>
-                    <li data-target="#carousel" data-slide-to="1"></li>
-                    <li data-target="#carousel" data-slide-to="2"></li>
-                </ol>
-                <!--Слайди-->
-                <div class="carousel-inner">
-                    <div class="item active">
-                        <img src="images/proba21.png" alt="">
-                        <div class="carousel-caption">
-                            <h3>Перший слайд</h3>
-                            <p>Перегляд слайду!!!</p>
-                        </div>
-                    </div>
-                    <div class="item">
-                        <img src="images/proba22.png" alt="">
-                        <div class="carousel-caption">
-                            <h3>Другий слайд</h3>
-                            <p>Перегляд слайду!!!</p>
-                        </div>
-                    </div>
-                    <div class="item">
-                        <img src="images/proba24.png" alt="">
-                        <div class="carousel-caption">
-                            <h3>Третій слайд</h3>
-                            <p>Перегляд слайду!!!</p>
-                        </div>
-                    </div>
-                </div>
-                <!--Стрілки слайдів-->
-                <a href="#carousel" class="left carousel-control" data-slide="prev">
-                    <span class="glyphicon glyphicon-chevron-left"></span>
-                </a>
-                <a href="#carousel" class="right carousel-control" data-slide="next">
-                    <span class="glyphicon glyphicon-chevron-right"></span>
-                </a>
-            </div>
+            <div class="col-sm-6 col-md-6 col-lg-6"></div>
             <div class="col-sm-3 col-md-3 col-lg-3"></div>
         </div>
     </div>
 </div>
-<!--Тіло-->
-<div>
+<!--Directions-->
+<div class="directions">
     <div class="container-fluid" id="title-1">
         <p>НАПРЯМКИ ДІЯЛЬНОСТІ</p>
     </div>
@@ -292,6 +251,51 @@
                 <p>HiFi АУДІОСИСТЕМИ</p></div>
             <div class="col-md-4"><img src="images/1toner.png" alt="ЗАПРАВКА КАТРИДЖІВ" title="ЗАПРАВКА КАТРИДЖІВ">
                 <p>ЗАПРАВКА КАТРИДЖІВ</p></div>
+        </div>
+    </div>
+</div>
+<!--Slideshow-->
+<!--slide indicators-->
+<div class="carousel slide" id="carousel" data-interval="2500">
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-sm-3 col-md-3 col-lg-3"></div>
+            <div class="col-sm-6 col-md-6 col-lg-6">
+                <ol class="carousel-indicators">
+                    <li class="active" data-target="#carousel" data-slide-to="0"></li>
+                    <li data-target="#carousel" data-slide-to="1"></li>
+                    <li data-target="#carousel" data-slide-to="2"></li>
+                </ol>
+                <!--Slides-->
+                <div class="carousel-inner">
+                    <div class="item active">
+                        <img src="images/proba24.png" alt="">
+                        <div class="carousel-caption">
+                            <h3>Ремонт компютерів</h3>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <img src="images/proba21.png" alt="">
+                        <div class="carousel-caption">
+                            <h3>Обслуговування оргтехніки</h3>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <img src="images/proba22.png" alt="">
+                        <div class="carousel-caption">
+                            <h3>Ремонт мобільних телефонів</h3>
+                        </div>
+                    </div>
+                </div>
+                <!--Стрілки слайдів-->
+                <a href="#carousel" class="left carousel-control" data-slide="prev">
+                    <span class="glyphicon glyphicon-chevron-left"></span>
+                </a>
+                <a href="#carousel" class="right carousel-control" data-slide="next">
+                    <span class="glyphicon glyphicon-chevron-right"></span>
+                </a>
+            </div>
+            <div class="col-sm-3 col-md-3 col-lg-3"></div>
         </div>
     </div>
 </div>
