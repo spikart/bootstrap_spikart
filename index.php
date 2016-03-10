@@ -94,13 +94,9 @@
                     </div>
                     <div class="collapse navbar-collapse pull-right" id="responsive-menu">
                         <ul class="nav navbar-nav">
-
-                            <li><a href="http://www.bs-spikart.com.ua/index.php""><i class="fa fa-home"></i>Головна</a></li>
-
-                            <li><a href="#title-1"><i class="fa fa-arrows-alt"></i>
-                                    Напрямки діяльності</a></li>
-                            <li>
-                                <a href="pages/contacts.php"><i class="fa fa-info-circle"></i>Контакти</a></li>
+                            <li><a href="../index.php""><i class="fa fa-home"></i>Головна</a></li>
+                            <li><a href="#title-1"><i class="fa fa-arrows-alt"></i> Напрямки діяльності</a></li>
+                            <li><a href="pages/contacts.php"><i class="fa fa-info-circle"></i>Контакти</a></li>
                         </ul>
                     </div>
                 </div>
@@ -127,7 +123,13 @@
                 <div class="col-sm-4">
                 </div>
                 <div class="col-sm-6">
-                    <div class="row">
+                    <div class="col-sm-12" id="phone-a">
+                        <ul class="navbar-nav" >
+                            <li><img src="images/phone/ukrtelecom_small.png" alt="+38(032) 276 15 20" title="+38(032) 276 15 20">+38(032)&nbsp;276&nbsp;15&nbsp;20</li>
+                            <li><img src="images/phone/kyivstar_small.png" alt="+38(096) 091 22 11" title="+38(096) 091 22 11">+38(096)&nbsp;091&nbsp;22&nbsp;11</li>
+                            <li><img src="images/phone/lifecell_small.png" alt="+38(073) 073 22 11" title="+38(073) 073 22 11">+38(073)&nbsp;073&nbsp;22&nbsp;11</li>
+                        </ul>
+                    </div>
                         <div class="col-sm-4"></div>
                         <div class="col-sm-4">
                             <ul class="skype-mail">
@@ -152,51 +154,11 @@
                         </script>
 
                         <div class="col-sm-4">
-                            <div class="shop-button" id="cart">
-                                <button type="button" class="btn btn-inverse btn-lg">
-                                    <a href="http://spikart.com.ua/shop/" target="_blank">
+                            <a class="btn-lg" href="http://spikart.com.ua/shop/" target="_blank" id="btn-shop">
                                         <i class="fa fa-shopping-bag"></i>
                                         <i>Каталог товарів</i>
-                                    </a></button>
-                            </div>
+                            </a>
                         </div>
-                    </div>
-                    <div class="row" id="phone-a">
-
-                        <div class="col-sm-4">
-                            <div id="ukrtelecom">
-                                <li><a href="#" target="_blank"><img src="images/phone/ukrtelecom.png"
-                                                                     alt="+38(032) 276 15 20" title="+38(032) 276 15 20"
-                                                                     class="img-responsive"></a></li></div>
-                            <div id="numb-phone">
-                                <li><a>+38(032)&nbsp;276&nbsp;15&nbsp;20</a></li>
-                            </div>
-                        </div>
-
-                        <div class="col-sm-4">
-                            <div id="kyivstar">
-
-                                <li><a href="#" target="_blank"><img src="images/phone/kyivstar.png"
-                                                                     alt="+38(096) 091 22 11" title="+38(096) 091 22 11"
-                                                                     class="img-responsive"></a></li></div>
-                                <div id="numb-phone">
-                                <li><a>+38(096)&nbsp;091&nbsp;22&nbsp;11</a></li>
-
-                            </div>
-                        </div>
-
-                        <div class="col-sm-4">
-                            <div id="lifecell">
-
-                                <li><a href="#" target="_blank"><img src="images/phone/lifecell.png"
-                                                                     alt="+38(073) 073 22 11" title="+38(073) 073 22 11"
-                                                                     class="img-responsive"></a></li></div>
-                            <div id="numb-phone">
-                            <li><a>+38(073)&nbsp;073&nbsp;22&nbsp;11</a></li>
-
-                            </div>
-                        </div>
-                    </div>
                 </div>
             </div>
         </div>

@@ -90,10 +90,7 @@ body {
 
 
 .logo {
-    margin-bottom: -4px;
-    margin-top: -4px;
     z-index: 1;
-    margin-left: 38px;
 }
 
 
@@ -129,16 +126,10 @@ body {
     float: left;
     list-style: none;
     margin: 6px;
-    transition: 0.2s ease-out;
-    transition-delay: 0.0s;
-
+    box-shadow: 2px 2px 2px #004D90;
 }
+
 .social li:hover {
-    height: 28px;
-    width: 28px;
-    float: left;
-    list-style: none;
-    margin: 6px;
     box-shadow: 3px 3px 3px #004D40;
 }
 
@@ -306,6 +297,38 @@ body {
     transition: background-color .5s ease;
 }
 
+#btn-shop {
+    color: #009688;
+    text-decoration: none;
+    font-size: 18px;
+    min-width: 150px;
+
+    background: linear-gradient(to bottom, #cFffd9, #FFf9c9 );
+    border-radius: 4px;
+    font-style: normal !important;
+    box-shadow: 3px 3px 3px 1px #c2b188;
+    margin-top: 8px;
+    padding: 10px 16px;
+    margin-bottom: 4px;
+
+    -moz-transition: all .5s ease;
+    -o-transition: all .5s ease;
+    -webkit-transition: all .5s ease-in-out;
+    transition: all .5s ease;
+}
+
+#btn-shop i {
+    font-style: normal;
+}
+
+#btn-shop:hover{
+    color: #007678;
+    -moz-transition: all .5s ease;
+    -o-transition: all .5s ease;
+    -webkit-transition: all .5s ease-in-out;
+    transition: all .5s ease;
+}
+
 .btn-lg {
     padding: 10px 16px;
     font-size: 15px;
@@ -349,7 +372,14 @@ body {
 }
 */
 #phone-a ul {
-    margin-bottom: -4px;
+    margin-bottom: 4px;
+    margin-top: 16px;
+    font-size: 1.3em;
+    font-weight: bold;
+    color: #ffffff;
+    text-align: center;
+    padding-left: 5px;
+    text-decoration: none;
 }
 
 #numb-phone {
@@ -358,7 +388,7 @@ body {
 
 
 #numb-phone a {
-    font-size: 15px;
+    font-size: 16px;
     font-weight: bold;
     color: #ffffff;
     margin-bottom: 10px;
@@ -368,21 +398,19 @@ body {
 }
 
 #phone-a li {
-    height: 25px;
-    width: 25px;
     list-style: none;
-    float: left;
+    padding-right: 30px;
     padding-bottom: 5px;
     transition: 0.2s ease-out;
     transition-delay: 0.0s;
 }
 
+#phone-a li .img {
+    padding-right: 5px;
+}
+
 #phone-a li:hover {
-    height: 30px;
-    width: 30px;
-    list-style: none;
-    float: left;
-    padding-bottom: 5px;
+    padding-right: 50px;
 }
 
 
