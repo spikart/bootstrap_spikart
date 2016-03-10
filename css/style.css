@@ -427,7 +427,7 @@ body {
 }
 
 .directions{
-    height: 700px;
+    min-height: 700px;
 }
 
 .carousel {
@@ -687,7 +687,7 @@ body {
 }
 
 
-/*----- Contakty-----*/
+/*----- Contacts-----*/
 #contacts {
     margin-bottom: 10px;
 }
@@ -716,7 +716,7 @@ body {
 }
 
 #manager {
-    height: 350px;
+    min-height: 350px;
     background-color: #F0FFF5;
     box-shadow: 3px 3px 3px #004D40;
 }
@@ -734,7 +734,7 @@ body {
 }
 
 #service {
-    height: 350px;
+    min-height: 350px;
     background-color: #F0FFF5;
     box-shadow: 3px 3px 3px #004D40;
 }
@@ -756,7 +756,7 @@ body {
 }
 
 #form {
-    height: 350px;
+    min-height: 350px;
     background-color: #F0FFF5;
     box-shadow: 3px 3px 3px #004D40;
 }

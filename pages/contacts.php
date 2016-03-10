@@ -1,12 +1,14 @@
 <!DOCTYPE html>
 <html lang="uk">
 <head>
+    <meta name="google-site-verification" content="n0aTZ9Q2NqW4hPGgj5lZnfmTNyYwAYYRYDesET0jVN8">
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="content-type" content="text/html; charset=utf-8">
     <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
     <link rel="shortcut icon" href="../images/favicon_mini.png" type="image/png">
-    <title>Spikart</title>
+    <title>КОНТАКТИ</title>
     <!-- Bootstrap -->
     <link href="../css/bootstrap.css" rel="stylesheet">
     <link href="../css/style.css" rel="stylesheet">
@@ -91,8 +93,7 @@
 
                             <li><a href="../index.php#title-1"><i class="fa fa-arrows-alt"></i>
                                     Напрямки діяльності</a></li>
-                            <li>
-                                <a href="#"><i class="fa fa-info-circle"></i>Контакти</a></li>
+                            <li><a href="#"><i class="fa fa-info-circle"></i>Контакти</a></li>
                         </ul>
                     </div>
                 </div>
@@ -118,8 +119,7 @@
                         </a>
                     </div>
                 </div>
-                <div class="col-sm-4">
-                </div>
+                <div class="col-sm-4"></div>
                 <div class="col-sm-6">
                     <div class="row">
                         <div class="col-sm-5"></div>
@@ -129,7 +129,6 @@
                                 <li><a href="#" target="_blank"><img src="../images/social/e-mail_logo_200.png" id="email" alt="E-mail" title="E-mail" class="img-responsive"></a></li>
                             </ul>
                         </div>
-
                         <script>
                             $(function(){
 

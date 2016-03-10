@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="uk">
 <head>
+    <meta name="google-site-verification" content="n0aTZ9Q2NqW4hPGgj5lZnfmTNyYwAYYRYDesET0jVN8">
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -26,6 +27,9 @@
     <script src="http://code.jquery.com/jquery-latest.min.js"></script>
     <script src="js/jquery.jrumble.1.3.min.js"></script>
 
+    <meta content="ГОЛОВНА" property="og:title">
+    <meta content="website" property="og:type">
+    <meta content="http://spikart.com.ua/" property="og:url">
 
 
     <![endif]-->
@@ -96,7 +100,7 @@
                             <li><a href="#title-1"><i class="fa fa-arrows-alt"></i>
                                     Напрямки діяльності</a></li>
                             <li>
-                                <a href="pages/contakty.php"><i class="fa fa-info-circle"></i>Контакти</a></li>
+                                <a href="pages/contacts.php"><i class="fa fa-info-circle"></i>Контакти</a></li>
                         </ul>
                     </div>
                 </div>
@@ -121,25 +125,6 @@
                     </div>
                 </div>
                 <div class="col-sm-4">
-                                        <!-----Buttons----
-                   <div class="button" id="b-button">
-                        <button type="button" class="btn">Темно-синя</button>
-                    </div>
-
-                    <div class="button" id="bw-button">
-                        <button type="button" class="btn">Світло-синя</button>
-                    </div>
-
-                    <div class="button" id="g-button">
-                        <button type="button" class="btn">Зелена кнопка</button>
-                    </div>
-
-                    <div class="button" id="r-button">
-                        <button type="button" class="btn">Червона кнопка</button>
-                    </div>
-
-
-                                               <-------->
                 </div>
                 <div class="col-sm-6">
                     <div class="row">
@@ -343,7 +328,7 @@
 <!--Футтер-->
 <div id="footer">
     <div class="animated tada" id="logo-footer">
-        <a href="pages/contakty.php" id="contakt-foofter" title="Контакти">
+        <a href="pages/contacts.php" id="contakt-foofter" title="Контакти">
         <span class="fa-stack fa-lg" id="fa-stakc">
            <i class="fa fa-circle fa-stack-2x"></i>
            <i class="fa fa-compass fa-stack-1x fa-inverse"></i>
