@@ -17,7 +17,7 @@ body {
     line-height: 20px;
 }
 .navbar {
-    min-height: 41px;
+
     margin-bottom: 0px;
     border: 0px;
 }
@@ -29,7 +29,7 @@ body {
     color: #53A875;
 }
 .fa-stack {
-    margin-top: -7px;
+    margin-top: 7px;
     margin-left: -10px;
 }
 #top {
@@ -87,9 +87,8 @@ body {
 
 }
 
-
-
 .logo {
+    float: left;
     z-index: 1;
 }
 
@@ -110,14 +109,6 @@ body {
     color: #EDFFE9;
 }
 
-#skype {
-    padding-top: 0px;
-}
-
-#e-mail {
-    padding-top: 5px;
-}
-
 /*-------END-------*/
 
 .social li {
@@ -134,91 +125,11 @@ body {
 }
 
 
-/* -----Social-----
-
-
-#social {
-    width: 40px;
-    padding-top: 5px;
-
-}
-#social .image {
-    width: 128px;
-    height: 128px;
-}
-
-#social a {
-    text-decoration: none;
-    outline: none;
-}
-#social b {
-    color: #EDFFE9;
-}
-
-#facebook {
-    padding-top: 0px;
-    width: 28px;
-    height: 28px;
-
-}
-
-#facebook img {
-    -moz-transition: all 0.5s ease-out;
-    -o-transition: all 0.5s ease-out;
-    -webkit-transition: all 0.5s ease-out;
-}
-
-#facebook img:hover{
-    -webkit-transform: scale(1.5);
-    -moz-transform: scale(1.5);
-    -o-transform: scale(1.5);
-}
-
-#google-plus {
-    padding-top: 3px;
-
-    width: 28px;
-    height: 28px;
-}
-
-#google-plus img {
-    -moz-transition: all 0.5s ease-out;
-    -o-transition: all 0.5s ease-out;
-    -webkit-transition: all 0.5s ease-out;
-}
-
-#google-plus img:hover{
-    -webkit-transform: scale(1.5);
-    -moz-transform: scale(1.5);
-    -o-transform: scale(1.5);
-}
-
-#vk {
-    padding-top: 5px;
-
-    width: 28px;
-    height: 28px;
-}
-
-#vk img {
-    -moz-transition: all 0.5s ease-out;
-    -o-transition: all 0.5s ease-out;
-    -webkit-transition: all 0.5s ease-out;
-}
-
-#vk img:hover{
-    -webkit-transform: scale(1.5);
-    -moz-transform: scale(1.5);
-    -o-transform: scale(1.5);
-}
-*/
 /*-------END-------*/
 .skype-mail li {
-    height: 36px;
-    width: 36px;
-    float: left;
     list-style: none;
-    margin: 12px;
+    float: right;
+    margin: 4px;
 }
 
 /*---Header-Button---*/
@@ -254,60 +165,16 @@ body {
     box-shadow: inset 0 1px 0 rgba(255,255,255,.2), 0 1px 2px rgba(0,0,0,.05);
 }
 
-.btn-inverse {
-    color: #ffffff;
-    font-size: 18px;
-    text-shadow: 1px 1px #004800;
-    background-color: #44ee77;
-    border-radius: 0;
-    right: 0;
-    width: 60%;
-    min-width: 200px;
-    box-shadow: 0px 0px 0px #44ee77, inset 0 25px 20px -10px #45a268,
-    inset 0 -15px 20px -10px rgba(0, 0, 0, 0.3);
-    -moz-box-shadow: 1px 1px 1px #44ee77, inset 0 25px 20px -10px #45a268,
-    inset 0 -15px 20px -10px rgba(0, 0, 0, 0.15);
-    -o-box-shadow: 1px 1px 1px #44ee77, inset 0 25px 20px -10px #45a268,
-    inset 0 -15px 20px -10px rgba(0, 0, 0, 0.3);
-    -webkit-box-shadow: 0px 0px 0px #45a268,
-    inset 0 25px 20px -10px #44ee77,
-    inset 0 -15px 20px -10px rgba(0, 0, 0, 0.3);
-    -moz-transition: background-color 1s ease;
-    -o-transition: background-color 1s ease;
-    -webkit-transition: background-color .5s ease-in-out;
-    transition: background-color 1s ease;
-}
-
-.btn-inverse:hover {
-    background-color: #11bb55;
-    text-shadow: 1px 1px #004800;
-    border-radius: 0;
-    box-shadow: 0px 0px 0px #45a268,inset 0 20px 20px -10px #56b278,
-    inset 0 -15px 20px -10px rgba(255, 255, 255, 0.3);
-    -moz-box-shadow: -1px -1px -1px #45a268,inset 0 20px 20px -10px #56b278,
-    inset 0 -15px 20px -10px rgba(255, 255, 255, 0.3);
-    -o-box-shadow: -1px -1px -1px #45a268, inset 0 20px 20px -10px #56b278,
-    inset 0 -15px 20px -10px rgba(255, 255, 255, 0.3);
-    -webkit-box-shadow: 0px 0px 0px #45a268,
-    inset 0 20px 20px -10px #56b278,
-    inset 0 -15px 20px -10px rgba(255, 255, 255, 0.3);
-    -moz-transition: background-color .5s ease;
-    -o-transition: background-color .5s ease;
-    -webkit-transition: background-color .5s ease-in-out;
-    transition: background-color .5s ease;
-}
-
 #btn-shop {
     color: #009688;
     text-decoration: none;
-    font-size: 18px;
-    min-width: 150px;
-
+    font-size: 16px;
+    float:  right;
     background: linear-gradient(to bottom, #cFffd9, #FFf9c9 );
     border-radius: 4px;
     font-style: normal !important;
-    box-shadow: 3px 3px 3px 1px #c2b188;
-    margin-top: 8px;
+    box-shadow: 4px 2px 8px 4px #326158;
+    margin: 4px;
     padding: 10px 16px;
     margin-bottom: 4px;
 
@@ -329,57 +196,44 @@ body {
     transition: all .5s ease;
 }
 
+
+#btn-shop-small {
+    color: #009688;
+    text-decoration: none;
+    font-size: 12px;
+    float:  right;
+    background: linear-gradient(to bottom, #cFffd9, #FFf9c9 );
+    border-radius: 2px;
+    font-style: normal !important;
+    box-shadow: 4px 2px 8px 4px #326158;
+    margin: 2px;
+    padding: 8px 8px;
+    margin-bottom: 8px;
+
+    -moz-transition: all .5s ease;
+    -o-transition: all .5s ease;
+    -webkit-transition: all .5s ease-in-out;
+    transition: all .5s ease;
+}
+
+#btn-shop-small i {
+    font-style: normal;
+}
+
+#btn-shop-small:hover{
+    color: #007678;
+    -moz-transition: all .5s ease;
+    -o-transition: all .5s ease;
+    -webkit-transition: all .5s ease-in-out;
+    transition: all .5s ease;
+}
+
+
+
+
 .btn-lg {
     padding: 10px 16px;
     font-size: 15px;
-}
-
-
-/*#phone-adress {
-    padding-top: 20px;
-    text-align:  left;
-}
-#phone-adress a {
-    text-decoration: none;
-}
-#phone-adress b {
-    text-decoration: none;
-    outline: none;
-    color: #EDFFE9;
-    vertical-align: 0px;
-    font-size: inherit;
-}
-#phone-adress .fa {
-    width: 63px;
-}
-.fa-phone-square {
-    font-size: large;
-}
-#left-square {
-    float: left;
-}
-#phone .fa {
-    color: #AAEEFF;
-    transition: .6s ease-out;
-    transition-delay: 0.0s;
-    font-size: 56px;
-    padding-top: 3px;
-}
-
-#phone .fa:hover {
-    color: #EDFFE9;
-
-}
-*/
-#phone-a ul {
-    margin-bottom: 4px;
-    margin-top: 16px;
-    font-size: 1.3em;
-    font-weight: bold;
-    color: #ffffff;
-    text-align: center;
-    padding-left: 5px;
-    text-decoration: none;
 }
 
 #numb-phone {
@@ -388,7 +242,7 @@ body {
 
 
 #numb-phone a {
-    font-size: 16px;
+    font-size: 14px;
     font-weight: bold;
     color: #ffffff;
     margin-bottom: 10px;
@@ -397,56 +251,60 @@ body {
     text-decoration: none;
 }
 
-#phone-a li {
+
+#phone ul {
+
+    font-size: 80%;
+    font-weight: bold;
+    color: #ffffff;
+    text-decoration: none;
+}
+
+
+#phone li {
+    float:left;
     list-style: none;
-    padding-right: 30px;
-    padding-bottom: 5px;
     transition: 0.2s ease-out;
     transition-delay: 0.0s;
 }
 
-#phone-a li .img {
-    padding-right: 5px;
+#phone li img {
+    padding-right: 4px;
+    padding-bottom: 2px;
+}
+
+#phone li:hover {
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+
+#phone-a ul {
+
+    font-size: 100%;
+    font-weight: bold;
+    color: #ffffff;
+    text-decoration: none;
+}
+
+
+#phone-a li {
+    float:right;
+    list-style: none;
+    padding-right: 30px;
+    transition: 0.2s ease-out;
+    transition-delay: 0.0s;
+}
+
+#phone-a li img {
+    padding-right: 4px;
+    padding-bottom: 2px;
 }
 
 #phone-a li:hover {
-    padding-right: 50px;
+    margin-right: 20px;
+    margin-left: 20px;
 }
-
-
-#ukrtelecom .img {
-    padding-right: 5px;
-}
-
-#kyivstar .img {
-    padding-right: 5px;
-}
-
-#lifecell .img {
-    padding-right: 5px;
-}
-
-/*#ukrtelecom {
-    height: 36px;
-    width: 36px;
-    list-style: none;
-
-}
-
-#kyivstar {
-    height: 36px;
-    width: 36px;
-    list-style: none;
-
-}
-
-#lifecell {
-    height: 36px;
-    width: 36px;
-    list-style: none;
-
-}
-*/
 
 .presentation{
     border-bottom: #01579B solid 8px;
@@ -483,8 +341,6 @@ body {
 .carousel-control:focus {
     color: #128522;
 }
-
-
 
 #title-1 {
     text-align:  center;
@@ -808,3 +664,144 @@ margin-top: 30px;
 #cotacts_row_2 {
     margin-top: 30px;
 }
+
+
+/* -----Social-----
+
+
+#social {
+    width: 40px;
+    padding-top: 5px;
+
+}
+#social .image {
+    width: 128px;
+    height: 128px;
+}
+
+#social a {
+    text-decoration: none;
+    outline: none;
+}
+#social b {
+    color: #EDFFE9;
+}
+
+#facebook {
+    padding-top: 0px;
+    width: 28px;
+    height: 28px;
+
+}
+
+#facebook img {
+    -moz-transition: all 0.5s ease-out;
+    -o-transition: all 0.5s ease-out;
+    -webkit-transition: all 0.5s ease-out;
+}
+
+#facebook img:hover{
+    -webkit-transform: scale(1.5);
+    -moz-transform: scale(1.5);
+    -o-transform: scale(1.5);
+}
+
+#google-plus {
+    padding-top: 3px;
+
+    width: 28px;
+    height: 28px;
+}
+
+#google-plus img {
+    -moz-transition: all 0.5s ease-out;
+    -o-transition: all 0.5s ease-out;
+    -webkit-transition: all 0.5s ease-out;
+}
+
+#google-plus img:hover{
+    -webkit-transform: scale(1.5);
+    -moz-transform: scale(1.5);
+    -o-transform: scale(1.5);
+}
+
+#vk {
+    padding-top: 5px;
+
+    width: 28px;
+    height: 28px;
+}
+
+#vk img {
+    -moz-transition: all 0.5s ease-out;
+    -o-transition: all 0.5s ease-out;
+    -webkit-transition: all 0.5s ease-out;
+}
+
+#vk img:hover{
+    -webkit-transform: scale(1.5);
+    -moz-transform: scale(1.5);
+    -o-transform: scale(1.5);
+}
+*/
+
+
+/*#ukrtelecom {
+    height: 36px;
+    width: 36px;
+    list-style: none;
+
+}
+
+#kyivstar {
+    height: 36px;
+    width: 36px;
+    list-style: none;
+
+}
+
+#lifecell {
+    height: 36px;
+    width: 36px;
+    list-style: none;
+
+}
+*/
+
+
+/*#phone-adress {
+    padding-top: 20px;
+    text-align:  left;
+}
+#phone-adress a {
+    text-decoration: none;
+}
+#phone-adress b {
+    text-decoration: none;
+    outline: none;
+    color: #EDFFE9;
+    vertical-align: 0px;
+    font-size: inherit;
+}
+#phone-adress .fa {
+    width: 63px;
+}
+.fa-phone-square {
+    font-size: large;
+}
+#left-square {
+    float: left;
+}
+#phone .fa {
+    color: #AAEEFF;
+    transition: .6s ease-out;
+    transition-delay: 0.0s;
+    font-size: 56px;
+    padding-top: 3px;
+}
+
+#phone .fa:hover {
+    color: #EDFFE9;
+
+}
+*/

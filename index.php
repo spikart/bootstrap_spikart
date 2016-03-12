@@ -27,6 +27,7 @@
     <script src="http://code.jquery.com/jquery-latest.min.js"></script>
     <script src="js/jquery.jrumble.1.3.min.js"></script>
 
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta content="ГОЛОВНА" property="og:title">
     <meta content="website" property="og:type">
     <meta content="http://spikart.com.ua/" property="og:url">
@@ -36,7 +37,7 @@
 </head>
 <body>
 <script>
-    jQuery("document").ready(function($){
+    jQuery("document").ready(function ($) {
 
         var nav = $('.header-container');
 
@@ -48,12 +49,12 @@
             }
         });
     });
-    </script>
+</script>
 
 
 <script>
-    $(function() {
-        $("fa").click(function() {
+    $(function () {
+        $("fa").click(function () {
             animate("#footer", 'bounce');
             return false;
         });
@@ -61,8 +62,9 @@
 
     function animate(element_ID, animation) {
         $(element_ID).addClass(animation);
-        var wait = window.setTimeout( function(){
-            $(element_ID).removeClass(animation)}, 1300
+        var wait = window.setTimeout(function () {
+                $(element_ID).removeClass(animation)
+            }, 1300
         );
     }
 </script>
@@ -77,15 +79,19 @@
                 <div class="col-sm-1"></div>
                 <div class="col-sm-3">
                     <ul class="social">
-                        <li><a href="#" target="_blank"><img src="images/social/vk_logo_200.png" alt="Вконтаке" title="Вконтаке" class="img-responsive"></a></li>
-                        <li><a href="#" target="_blank"><img src="images/social/google-plus_logo_200.png" alt="Google+" title="Google+" class="img-responsive"></a></li>
-                        <li><a href="#" target="_blank"><img src="images/social/facebook_logo_200.png" alt="Facebook" title="Facebook" class="img-responsive"></a></li>
+                        <li><a href="#" target="_blank"><img src="images/social/vk_logo_200.png" alt="Вконтаке"
+                                                             title="Вконтаке" class="img-responsive"></a></li>
+                        <li><a href="#" target="_blank"><img src="images/social/google-plus_logo_200.png" alt="Google+"
+                                                             title="Google+" class="img-responsive"></a></li>
+                        <li><a href="#" target="_blank"><img src="images/social/facebook_logo_200.png" alt="Facebook"
+                                                             title="Facebook" class="img-responsive"></a></li>
                     </ul>
                 </div>
                 <div class="col-sm-2"></div>
                 <div class="col-sm-6">
                     <div class="navbar-header">
-                        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#responsive-menu">
+                        <button type="button" class="navbar-toggle" data-toggle="collapse"
+                                data-target="#responsive-menu">
                         <span class="fa-stack fa-lg">
                           <i class="fa fa-square-o fa-stack-2x"></i>
                           <i class="fa fa-bars fa-stack-1x"></i>
@@ -95,7 +101,7 @@
                     <div class="collapse navbar-collapse pull-right" id="responsive-menu">
                         <ul class="nav navbar-nav">
                             <li><a href="../index.php""><i class="fa fa-home"></i>Головна</a></li>
-                            <li><a href="#title-1"><i class="fa fa-arrows-alt"></i> Напрямки діяльності</a></li>
+                            <li><a href="#title-1"><i class="fa fa-arrows-alt"></i> Напрямки</a></li>
                             <li><a href="pages/contacts.php"><i class="fa fa-info-circle"></i>Контакти</a></li>
                         </ul>
                     </div>
@@ -106,59 +112,107 @@
 </div>
 
 
-
-
 <!--Header-->
 <div class="header-container">
     <div id="header-inner-container">
         <div class="container-fluid">
             <div class="row">
-                <div class="col-sm-2">
+<!-- -->
+                <div class="col-lg-1 hidden-xs hidden-md hidden-sm">
                     <div class="logo">
                         <a href="index.php">
-                        <img src="images/logo_center.png" alt="Спікарт" title="Spikart" class="img-responsive">
+                            <img src="images/logo_center.png" alt="Спікарт" title="Spikart">
                         </a>
                     </div>
                 </div>
-                <div class="col-sm-4">
+                <div class="col-md-1 hidden-xs hidden-sm hidden-lg">
+                    <div class="logo">
+                        <a href="index.php">
+                            <img src="images/logo_center_small.png" alt="Спікарт" title="Spikart">
+                        </a>
+                    </div>
                 </div>
-                <div class="col-sm-6">
-                    <div class="col-sm-12" id="phone-a">
-                        <ul class="navbar-nav" >
-                            <li><img src="images/phone/ukrtelecom_small.png" alt="+38(032) 276 15 20" title="+38(032) 276 15 20">+38(032)&nbsp;276&nbsp;15&nbsp;20</li>
-                            <li><img src="images/phone/kyivstar_small.png" alt="+38(096) 091 22 11" title="+38(096) 091 22 11">+38(096)&nbsp;091&nbsp;22&nbsp;11</li>
-                            <li><img src="images/phone/lifecell_small.png" alt="+38(073) 073 22 11" title="+38(073) 073 22 11">+38(073)&nbsp;073&nbsp;22&nbsp;11</li>
+                <div class="col-xs-2 col-sm-1 hidden-md hidden-lg">
+                    <div class="logo">
+                        <a href="index.php">
+                            <img src="images/logo_center_micro.png" alt="Спікарт" title="Spikart">
+                        </a>
+                    </div>
+                </div>
+
+<!-- -->
+                <div class="col-md-6 col-lg-6 hidden-xs hidden-sm">
+                    <div id="phone-a">
+                    <ul >
+                        <li><img src="images/phone/kyivstar_small.png" alt="+38(096) 091 22 11"
+                                 title="+38(096) 091 22 11">+38(096)&nbsp;091&nbsp;22&nbsp;11</li>
+                        <li><img src="images/phone/lifecell_small.png" alt="+38(073) 073 22 11"
+                                 title="+38(073) 073 22 11">+38(073)&nbsp;073&nbsp;22&nbsp;11</li>
+                        <li><img src="images/phone/ukrtelecom_small.png" alt="+38(032) 276 15 20"
+                                 title="+38(032) 276 15 20">+38(032)&nbsp;276&nbsp;15&nbsp;20</li>
+                    </ul>
+                    </div>
+                </div>
+                <div class="col-xs-7 col-sm-7 hidden-md hidden-lg">
+                    <div id="phone">
+                        <ul >
+                            <li><img src="images/phone/ukrtelecom_small.png" alt="+38(032) 276 15 20"
+                                     title="+38(032) 276 15 20">+38(032)&nbsp;276&nbsp;15&nbsp;20</li>
+                            <li><img src="images/phone/kyivstar_small.png" alt="+38(096) 091 22 11"
+                                     title="+38(096) 091 22 11">+38(096)&nbsp;091&nbsp;22&nbsp;11</li>
+                            <li><img src="images/phone/lifecell_small.png" alt="+38(073) 073 22 11"
+                                     title="+38(073) 073 22 11">+38(073)&nbsp;073&nbsp;22&nbsp;11</li>
                         </ul>
                     </div>
-                        <div class="col-sm-4"></div>
-                        <div class="col-sm-4">
-                            <ul class="skype-mail">
-                                <li><a href="#" target="_blank"><img src="images/social/skype_logo_200.png" id="skype" alt="Skype" title="Skype" class="img-responsive"></a></li>
-                                <li><a href="#" target="_blank"><img src="images/social/e-mail_logo_200.png" id="email" alt="E-mail" title="E-mail" class="img-responsive"></a></li>
-                            </ul>
-                        </div>
-                        <script>
-                            $(function(){
+                </div>
+<!-- -->
+                <div class="col-md-2 col-lg-2 hidden-xs hidden-sm">
+                    <ul class="skype-mail">
+                        <li><a href="#" target="_blank"><img src="images/social/skype_logo.png" id="skype"
+                                                             alt="Skype" title="Skype"></a>
+                        </li>
+                        <li><a href="#" target="_blank"><img src="images/social/e-mail_logo.png" id="email"
+                                                             alt="E-mail" title="E-mail"></a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-xs-3 col-sm-4 hidden-md hidden-lg">
+                    <ul class="skype-mail">
+                        <li><a href="#" target="_blank"><img src="images/social/skype_logo.png" id="skype"
+                                                             alt="Skype" title="Skype"></a>
+                        </li>
+                        <li><a href="#" target="_blank"><img src="images/social/e-mail_logo.png" id="email"
+                                                             alt="E-mail" title="E-mail"></a>
+                        </li>
+                    </ul>
+                </div>
+                <script>
+                    $(function () {
 
-                                $('#skype').jrumble({
-                                    x: 1,
-                                    y: 1,
-                                    rotation: 0
-                                });
-                                $('#skype').hover(function(){
-                                    $(this).trigger('startRumble');
-                                }, function(){
-                                    $(this).trigger('stopRumble');
-                                });
-                            });
-                        </script>
-
-                        <div class="col-sm-4">
-                            <a class="btn-lg" href="http://spikart.com.ua/shop/" target="_blank" id="btn-shop">
-                                        <i class="fa fa-shopping-bag"></i>
-                                        <i>Каталог товарів</i>
-                            </a>
-                        </div>
+                        $('#skype').jrumble({
+                            x: 1,
+                            y: 1,
+                            rotation: 0
+                        });
+                        $('#skype').hover(function () {
+                            $(this).trigger('startRumble');
+                        }, function () {
+                            $(this).trigger('stopRumble');
+                        });
+                    });
+                </script>
+<!-- -->
+                <div class="col-md-3 col-lg-3 hidden-xs hidden-sm">
+                    <a class="btn" href="http://spikart.com.ua/shop/" target="_blank" id="btn-shop">
+                        <i class="fa fa-shopping-bag"></i>
+                        <i>Каталог товарів</i>
+                    </a>
+                </div>
+                <div class="col-xs-8 col-sm-4 hidden-md hidden-lg">
+                    <a class="btn" href="http://spikart.com.ua/shop/" target="_blank" id="btn-shop-small">
+                        <i class="fa fa-shopping-bag"></i>
+                        <i>Каталог товарів</i>
+                    </a>
                 </div>
             </div>
         </div>
@@ -298,10 +352,10 @@
     </div>
     <div id="adress-footer">
 
-    <div id="adress-top">
-        79005 м. Львів. Вул. Зелена 5д/5.
-        <br>Тел./Факс +3(032)276-15-20
-        <br>e-mail: <a href="#">store@spikart.com.ua</a>
+        <div id="adress-top">
+            79005 м. Львів. Вул. Зелена 5д/5.
+            <br>Тел./Факс +3(032)276-15-20
+            <br>e-mail: <a href="#">store@spikart.com.ua</a>
         </div>
     </div>
 </div>
