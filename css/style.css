@@ -17,39 +17,40 @@ body {
     line-height: 20px;
 }
 .navbar {
-
-    margin-bottom: 0px;
+    height: 41px !important;
+    margin-bottom: -10px;
     border: 0px;
 }
-.navbar-toggle {
-    margin-top: 3px;
-    margin-right: 10px;
-    height: 35px;
-    width: 35px;
-    color: #53A875;
-}
+
 .fa-stack {
     margin-top: 7px;
-    margin-left: -10px;
+    margin-left: 10px;
 }
 #top {
     background: #F0FFF5;
     height: 41px;
 }
+.col-xs-6 {
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
 .container-fluid {
-    width: 90%;
+    width: 95%;
     padding-left: 0px;
     padding-right: 0px;
 }
 #responsive-menu {
-    padding-top: 1px;
+    list-style: none;
+    padding-top: 10px;
     position: relative;
-    padding-right: 8px;
+    padding-right: 0px;
 }
 #responsive-menu a {
     color: #EDFFE9;
-    padding: 6px 6px 5px 6px;
-    margin: 2px 5px 0px 10px;
+    padding: 8px 8px 8px 8px;
+    margin: 2px 0px 2px 0px;
+
     background: #128522;
     box-shadow: 2px 2px 2px #006712;
     transition: .6s ease-out;
@@ -58,10 +59,12 @@ body {
 }
 #responsive-menu a:hover {
     background-color: #027512;
+    transition: .6s ease-out;
+    transition-delay: 0.0s;
 }
 #responsive-menu .fa {
-    padding-right: 16px;
-    padding-left: 8px;
+    padding-right: 5px;
+    padding-left: 5px;
 }
 
         /*-----Header-----*/
@@ -112,11 +115,9 @@ body {
 /*-------END-------*/
 
 .social li {
-    height: 28px;
-    width: 28px;
     float: left;
     list-style: none;
-    margin: 6px;
+    margin: 4px;
     box-shadow: 2px 2px 2px #004D90;
 }
 
@@ -281,7 +282,7 @@ body {
 
 #phone-a ul {
 
-    font-size: 100%;
+    font-size: 16px;
     font-weight: bold;
     color: #ffffff;
     text-decoration: none;
@@ -289,7 +290,7 @@ body {
 
 
 #phone-a li {
-    float:right;
+    float:left;
     list-style: none;
     padding-right: 30px;
     transition: 0.2s ease-out;
@@ -307,6 +308,7 @@ body {
 }
 
 .presentation{
+    border-top: #01579B solid 8px;
     border-bottom: #01579B solid 8px;
     background-image: url(../images/presentation_background.jpg);
     height: 700px;
@@ -320,7 +322,6 @@ body {
     background-image: url(../images/carusel_back.jpg);
     background-we: cover;
     height: 700px;
-    border-top: #01579B solid 8px;
     border-bottom: #01579B solid 8px;
     z-index: 1;
 }

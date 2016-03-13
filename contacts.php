@@ -5,9 +5,10 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="content-type" content="text/html; charset=utf-8">
     <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
-    <link rel="shortcut icon" href="/images/favicon_mini.png" type="image/png">
-    <title>Spikart</title>
+    <link rel="shortcut icon" href="images/favicon_mini.png" type="image/png">
+    <title>КОНТАКТИ</title>
     <!-- Bootstrap -->
     <link href="css/bootstrap.css" rel="stylesheet">
     <link href="css/style.css" rel="stylesheet">
@@ -26,14 +27,7 @@
     <script src="js/bootstrap.js"></script>
     <script src="http://code.jquery.com/jquery-latest.min.js"></script>
     <script src="js/jquery.jrumble.1.3.min.js"></script>
-
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta content="ГОЛОВНА" property="og:title">
-    <meta content="website" property="og:type">
-    <meta content="http://spikart.com.ua/" property="og:url">
-
-
-    <!--[endif]-->
+    <![endif]-->
 </head>
 
 <body>
@@ -107,7 +101,7 @@
     <div id="header-inner-container">
         <div class="container-fluid">
             <div class="row">
-<!-- -->
+                <!-- -->
                 <div class="col-lg-1 hidden-xs hidden-md hidden-sm">
                     <div class="logo">
                         <a href="index.php">
@@ -130,17 +124,17 @@
                     </div>
                 </div>
 
-<!-- -->
+                <!-- -->
                 <div class="col-md-6 col-lg-6 hidden-xs hidden-sm">
                     <div id="phone-a">
-                    <ul >
-                        <li><img src="images/phone/kyivstar_small.png" alt="+38(096) 091 22 11"
-                                 title="+38(096) 091 22 11">+38(096)&nbsp;091&nbsp;22&nbsp;11</li>
-                        <li><img src="images/phone/lifecell_small.png" alt="+38(073) 073 22 11"
-                                 title="+38(073) 073 22 11">+38(073)&nbsp;073&nbsp;22&nbsp;11</li>
-                        <li><img src="images/phone/ukrtelecom_small.png" alt="+38(032) 276 15 20"
-                                 title="+38(032) 276 15 20">+38(032)&nbsp;276&nbsp;15&nbsp;20</li>
-                    </ul>
+                        <ul >
+                            <li><img src="images/phone/kyivstar_small.png" alt="+38(096) 091 22 11"
+                                     title="+38(096) 091 22 11">+38(096)&nbsp;091&nbsp;22&nbsp;11</li>
+                            <li><img src="images/phone/lifecell_small.png" alt="+38(073) 073 22 11"
+                                     title="+38(073) 073 22 11">+38(073)&nbsp;073&nbsp;22&nbsp;11</li>
+                            <li><img src="images/phone/ukrtelecom_small.png" alt="+38(032) 276 15 20"
+                                     title="+38(032) 276 15 20">+38(032)&nbsp;276&nbsp;15&nbsp;20</li>
+                        </ul>
                     </div>
                 </div>
                 <div class="col-xs-7 col-sm-7 hidden-md hidden-lg">
@@ -155,7 +149,7 @@
                         </ul>
                     </div>
                 </div>
-<!-- -->
+                <!-- -->
                 <div class="col-md-2 col-lg-2 hidden-xs hidden-sm">
                     <ul class="skype-mail">
                         <li><a href="#" target="_blank"><img src="images/social/skype_logo.png" id="skype"
@@ -191,7 +185,7 @@
                         });
                     });
                 </script>
-<!-- -->
+                <!-- -->
                 <div class="col-md-3 col-lg-3 hidden-xs hidden-sm">
                     <a class="btn" href="http://spikart.com.ua/shop/" target="_blank" id="btn-shop">
                         <i class="fa fa-shopping-bag"></i>
@@ -209,141 +203,85 @@
     </div>
 </div>
 
-<!--Slideshow-->
-<!--slide indicators-->
-<div class="carousel slide" id="carousel" data-interval="2000">
-    <div class="container-fluid">
-        <div class="row">
-            <div class="col-sm-3 col-md-3 col-lg-3"></div>
-            <div class="col-sm-6 col-md-6 col-lg-6">
-                <ol class="carousel-indicators">
-                    <li class="active" data-target="#carousel" data-slide-to="0"></li>
-                    <li data-target="#carousel" data-slide-to="1"></li>
-                    <li data-target="#carousel" data-slide-to="2"></li>
-                </ol>
-                <!--Slides-->
-                <div class="carousel-inner">
-                    <div class="item active">
-                        <img src="images/proba24.png" alt="">
-                        <div class="carousel-caption">
-                            <h3>Ремонт компютерів</h3>
-                        </div>
-                    </div>
-                    <div class="item">
-                        <img src="images/proba21.png" alt="">
-                        <div class="carousel-caption">
-                            <h3>Обслуговування оргтехніки</h3>
-                        </div>
-                    </div>
-                    <div class="item">
-                        <img src="images/proba22.png" alt="">
-                        <div class="carousel-caption">
-                            <h3>Ремонт мобільних телефонів</h3>
-                        </div>
-                    </div>
-                </div>
-                <!--Стрілки слайдів-->
-                <a href="#carousel" class="left carousel-control" data-slide="prev">
-                    <span class="glyphicon glyphicon-chevron-left"></span>
-                </a>
-                <a href="#carousel" class="right carousel-control" data-slide="next">
-                    <span class="glyphicon glyphicon-chevron-right"></span>
-                </a>
+<!--Contacts-->
+<div class="container-fluid">
+    <div class="row" id="contacts_row_1">
+        <div class="col-sm-5"></div>
+        <div class="col-sm-2" id="contacts"><h1>КОНТАКТИ</h1></div>
+        <div class="col-sm-5"><br><br><br><br><br></div>
+    </div>
+    <div class="row">
+        <div class="col-sm-1"></div>
+        <div class="col-sm-4" id="manager">
+            <h3>Відділ продажу</h3>
+            <div class="row">
+                <div class="col-sm-6">
+                    <img src="images/contacts/icon_sales_full.png" class="img-responsive"></div>
+                <div class="col-sm-6"><ul>
+                        <h4>
+                        <li>+38(096)091-22-11</li>
+                        <li>+38(073)073-22-11</li>
+                        <li>&nbsp</li>
+                        <li>store@spikart.com.ua</li>
+                        <li>Skype: spikart.com.ua</li>
+                        </h4>
+                    </ul></div>
+
             </div>
-            <div class="col-sm-3 col-md-3 col-lg-3"></div>
         </div>
-    </div>
-</div>
-
-
-
-<!--Directions-->
-<div class="directions">
-    <div class="container-fluid" id="title-1">
-        <p>НАПРЯМКИ ДІЯЛЬНОСТІ</p>
-    </div>
-    <div class="container-fluid" id="special-1">
-        <div class="row">
-            <div class="col-md-4"><img src="images/1automatization.png" alt="АВТОМАТИЗАЦІЯ БІЗНЕСУ"
-                                       title="АВТОМАТИЗАЦІЯ БІЗНЕСУ">
-                <p>АВТОМАТИЗАЦІЯ БІЗНЕСУ</p></div>
-            <div class="col-md-4"><img src="images/1hardware.png" alt="КОМП'ЮТЕРИ ТА ОРГТЕХНІКА"
-                                       title="КОМП'ЮТЕРИ ТА ОРГТЕХНІКА">
-                <p>КОМП'ЮТЕРИ ТА ОРГТЕХНІКА</p></div>
-            <div class="col-md-4"><img src="images/1remontmacbook.png" alt="РЕМОНТ НОУТБУКІВ" title="РЕМОНТ НОУТБУКІВ">
-                <p>РЕМОНТ НОУТБУКІВ</p></div>
-        </div>
-        <div class="row">
-            <div class="col-md-4"><img src="images/1computersale.png" alt="РЕМОНТ КОМП'ЮТЕРІВ"
-                                       title="РЕМОНТ КОМП'ЮТЕРІВ">
-                <p>РЕМОНТ КОМП'ЮТЕРІВ</p></div>
-            <div class="col-md-4"><img src="images/1hifinew1.png" alt="HiFi АУДІОСИСТЕМИ" title="HiFi АУДІОСИСТЕМИ">
-                <p>HiFi АУДІОСИСТЕМИ</p></div>
-            <div class="col-md-4"><img src="images/1toner.png" alt="ЗАПРАВКА КАТРИДЖІВ" title="ЗАПРАВКА КАТРИДЖІВ">
-                <p>ЗАПРАВКА КАТРИДЖІВ</p></div>
-        </div>
-    </div>
-</div>
-
-<!-- Presentation -->
-<div class="presentation">
-    <div class="container-fluid">
-        <div class="row">
-            <div class="col-sm-3 col-md-3 col-lg-3"></div>
-            <div class="col-sm-6 col-md-6 col-lg-6"></div>
-            <div class="col-sm-3 col-md-3 col-lg-3"></div>
-        </div>
-    </div>
-</div>
-
-
-<!-- About us -->
-<div id="about-as">
-    <img src="images/logo_center.png" alt="Спікарт" title="Spikart"">
-</div>
-<div id="title-2">
-    <div class="container-fluid">
-        <div class="row">
-            <div class="col-md-1"></div>
-            <div class="col-md-3" id="we-center"><i class="fa fa-paper-plane-o fa-4x"></i><br>МИ РЕАЛІЗОВУЄМО<br>
-                <div id="we">
-                    <br>комп'ютерну техніку
-                    <br>портативну техніку
-                    <br>мобільні пристрої
-                    <br>побутову техніку оргтехніку
+        <div class="col-sm-2"></div>
+        <div class="col-sm-4" id="service">
+            <h3>Сервіс та гарантія</h3>
+            <div class="row">
+                <div class="col-sm-6"><img src="images/contacts/icon_service.png" class="img-responsive"></div>
+                <div class="col-sm-6">
+                    <ul>
+                        <h4>
+                        <li>+38(032)276-15-20</li>
+                        <li>+38(096)091-22-11</li>
+                        <li>&nbsp</li>
+                        <li>support@spikart.com.ua</li>
+                        </h4>
+                    </ul>
                 </div>
             </div>
-            <div class="col-md-4"><i class="fa fa-university fa-4x"></i><br>ПРО НАС
-                <div id="we-top">
-                    <br>Приватне підприємство "Спікарт"
-                    <br>засноване 7 жовтня 2003 року.
-                    <br>З часу заснування ми займаємося
-                    <br>всіма спектрами товарів і послуг,
-                    <br>які можна надавати в сфері інформатизації
-                    <br>як підприємництва так і приватного сектору.
-                    <br> Обирайте нашу компанію і
-                    <br>впевненість у Вашій покупці та
-                    <br>тривалий час безвідказної роботи
-                    <br>Вашого вибору ми Вам гаратнуємо.
-                </div>
-            </div>
-            <div class="col-md-3"><i class="fa fa-star fa-4x"></i><br>МИ ПРОПОНУЄМО ВАМ
-                <br>
-                <div id="we">
-                    <h4>найякіснішу продукцію</h4>
-                    <h4>готові рішення під ключ</h4>
-                    <h4>компромісні рішення</h4>
-                    <h4>модернізацію існуючого парку техніки</h4></div>
+        </div>
+        <div class="col-sm-1"></div>
+    </div>
+    <div class="row" id="cotacts_row_2">
+        <div class="col-sm-1"></div>
+        <div class="col-sm-4" id="map-adress">
+
+            <div id="map">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d643.3553283821451!2d24.03598209199599!3d49.83454069613703!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0000000000000000%3A0x5d05cf85e010ad13!2z0J_QnyAi0KHQv9GW0LrQsNGA0YIi!5e0!3m2!1suk!2sua!4v1455890375587" width="500" height="250" frameborder="0" style="border:0" allowfullscreen></iframe>
             </div>
         </div>
+        <div class="col-sm-2" id="col1"></div>
+        <div class="col-sm-4" id="form">
+            <h3>Адреса</h3>
+            <div class="row">
+                <div class="col-sm-6"><img src="images/contacts/icon_home.png" class="img-responsive"></div>
+                <div class="col-sm-6">
+                    <ul>
+                    <h4>
+                        <li>79005 м.Львів.</li>
+                        <li>Вул. Зелена 5д/5.</li>
+                        <li>+38(032)276-15-20</li>
+                        <li>+38(096)091-22-11</li>
+                        <li>+38(073)073-22-11</li>
+                        <li>store@spikart.com.ua</li>
+                    </h4>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="col-sm-1"></div>
     </div>
-    <div class="col-md-1"></div>
 </div>
-
-<!--Футтер-->
+<!--footer-->
 <div id="footer">
     <div class="animated tada" id="logo-footer">
-        <a href="contacts.php" id="contakt-foofter" title="Контакти">
+        <a href="pages/contakty.php" id="contakt-foofter" title="Контакти">
         <span class="fa-stack fa-lg" id="fa-stakc">
            <i class="fa fa-circle fa-stack-2x"></i>
            <i class="fa fa-compass fa-stack-1x fa-inverse"></i>
