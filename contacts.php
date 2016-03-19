@@ -105,7 +105,7 @@
                 <div class="col-lg-1 hidden-xs hidden-md hidden-sm">
                     <div class="logo">
                         <a href="index.php">
-                            <img src="images/logo_center.png" alt="Спікарт" title="Spikart">
+                            <img src="images/logo_center_small.png" alt="Спікарт" title="Spikart">
                         </a>
                     </div>
                 </div>
@@ -127,48 +127,52 @@
                 <!-- -->
                 <div class="col-md-6 col-lg-6 hidden-xs hidden-sm">
                     <div id="phone-a">
-                        <ul >
+                        <ul>
                             <li><img src="images/phone/kyivstar_small.png" alt="+38(096) 091 22 11"
-                                     title="+38(096) 091 22 11">+38(096)&nbsp;091&nbsp;22&nbsp;11</li>
+                                     title="+38(096) 091 22 11">+38(096)&nbsp;091&nbsp;22&nbsp;11
+                            </li>
                             <li><img src="images/phone/lifecell_small.png" alt="+38(073) 073 22 11"
-                                     title="+38(073) 073 22 11">+38(073)&nbsp;073&nbsp;22&nbsp;11</li>
+                                     title="+38(073) 073 22 11">+38(073)&nbsp;073&nbsp;22&nbsp;11
+                            </li>
                             <li><img src="images/phone/ukrtelecom_small.png" alt="+38(032) 276 15 20"
-                                     title="+38(032) 276 15 20">+38(032)&nbsp;276&nbsp;15&nbsp;20</li>
+                                     title="+38(032) 276 15 20">+38(032)&nbsp;276&nbsp;15&nbsp;20
+                            </li>
                         </ul>
                     </div>
                 </div>
-                <div class="col-xs-7 col-sm-7 hidden-md hidden-lg">
+                <div class="col-xs-6 col-sm-7 hidden-md hidden-lg">
                     <div id="phone">
-                        <ul >
+                        <ul>
                             <li><img src="images/phone/ukrtelecom_small.png" alt="+38(032) 276 15 20"
-                                     title="+38(032) 276 15 20">+38(032)&nbsp;276&nbsp;15&nbsp;20</li>
+                                     title="+38(032) 276 15 20">+38(032)&nbsp;276&nbsp;15&nbsp;20
+                            </li>
                             <li><img src="images/phone/kyivstar_small.png" alt="+38(096) 091 22 11"
-                                     title="+38(096) 091 22 11">+38(096)&nbsp;091&nbsp;22&nbsp;11</li>
+                                     title="+38(096) 091 22 11">+38(096)&nbsp;091&nbsp;22&nbsp;11
+                            </li>
                             <li><img src="images/phone/lifecell_small.png" alt="+38(073) 073 22 11"
-                                     title="+38(073) 073 22 11">+38(073)&nbsp;073&nbsp;22&nbsp;11</li>
+                                     title="+38(073) 073 22 11">+38(073)&nbsp;073&nbsp;22&nbsp;11
+                            </li>
                         </ul>
                     </div>
                 </div>
                 <!-- -->
                 <div class="col-md-2 col-lg-2 hidden-xs hidden-sm">
-                    <ul class="skype-mail">
-                        <li><a href="#" target="_blank"><img src="images/social/skype_logo.png" id="skype"
-                                                             alt="Skype" title="Skype"></a>
-                        </li>
-                        <li><a href="#" target="_blank"><img src="images/social/e-mail_logo.png" id="email"
-                                                             alt="E-mail" title="E-mail"></a>
-                        </li>
-                    </ul>
+                    <div class="skype-mail">
+                        <ul>
+                            <li><a href="#" target="_blank"><img src="images/social/skype_logo.png" id="skype"
+                                                                 alt="Skype" title="Skype"></a></li>
+                            <li><a href="#" target="_blank"><img src="images/social/e-mail_logo.png" id="email"
+                                                                 alt="E-mail" title="E-mail"></a></li>
+                        </ul>
+                    </div>
                 </div>
-                <div class="col-xs-3 col-sm-2 hidden-md hidden-lg">
-                    <ul class="skype-mail">
-                        <li><a href="#" target="_blank"><img src="images/social/skype_logo_mini.png" id="skype"
-                                                             alt="Skype" title="Skype"></a>
-                        </li>
-                        <li><a href="#" target="_blank"><img src="images/social/e-mail_logo_mini.png" id="email"
-                                                             alt="E-mail" title="E-mail"></a>
-                        </li>
-                    </ul>
+                <div class="col-sm-2 hidden-xs hidden-md hidden-lg">
+                    <div class="skype-mail">
+                        <i><a href="#" target="_blank"><img src="images/social/skype_logo_mini.png"
+                                                            alt="Skype" title="spikart.com.ua"></a></i>
+                        <i><a href="#" target="_blank"><img src="images/social/e-mail_logo_mini.png"
+                                                            alt="E-mail" title="support@spikart.com.ua"></a></i>
+                    </div>
                 </div>
                 <script>
                     $(function () {
@@ -187,16 +191,20 @@
                 </script>
                 <!-- -->
                 <div class="col-md-3 col-lg-3 hidden-xs hidden-sm">
-                    <a class="btn" href="http://spikart.com.ua/shop/" target="_blank" id="btn-shop">
-                        <i class="fa fa-shopping-bag"></i>
-                        <i>Каталог товарів</i>
-                    </a>
+                    <div>
+                        <a class="btn" href="http://spikart.com.ua/shop/" target="_blank" id="btn-shop">
+                            <i class="fa fa-shopping-bag"></i>
+                            <i>Каталог товарів</i>
+                        </a>
+                    </div>
                 </div>
-                <div class="col-xs-12 col-sm-2 hidden-md hidden-lg">
-                    <a class="btn" href="http://spikart.com.ua/shop/" target="_blank" id="btn-shop-small">
-                        <i class="fa fa-shopping-bag"></i>
-                        <i>Каталог товарів</i>
-                    </a>
+                <div class="col-xs-4 col-sm-2 hidden-md hidden-lg">
+                    <div>
+                        <a class="btn" href="http://spikart.com.ua/shop/" target="_blank" id="btn-shop-small">
+                            <i class="fa fa-shopping-bag"></i>
+                            <i>Каталог товарів</i>
+                        </a>
+                    </div>
                 </div>
             </div>
         </div>
