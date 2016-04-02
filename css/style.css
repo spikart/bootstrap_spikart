@@ -70,7 +70,7 @@ body {
         /*-----Header-----*/
 .header-container {
     margin-bottom: 8px;
-
+	background: rgba(0, 150, 136, 1) ;
     box-shadow: 4px 4px 13px 4px #004D40;
     z-index: 3;
 }
@@ -80,11 +80,11 @@ body {
     left: 0;
     top: 0;
     width: 100%;
-
+	background: rgba(0, 150, 136, 0.8) !important;
 }
 
 #header-inner-container {
-    background: #009688;
+  
 
 }
 
